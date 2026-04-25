@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  flutter-dev:
+    build:
+      context: .
+      dockerfile: docker/dev/Dockerfile
+    container_name: clinical-trials-eu-flutter
+    volumes:
+      - ./flutter_app:/app
+    ports:
+      - "8080:8080"
+    stdin_open: true
+    tty: true

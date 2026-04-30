@@ -1,28 +1,65 @@
-# Clinical Trials EU - Setup & Notes de Session
+# Clinical Trials EU - Project Context
 
 **Projet :** Application Flutter pour vulgariser les essais cliniques européens  
-**GitHub :** [https://github.com/Thomas-L-debug/clinical-trials-eu](https://github.com/Thomas-L-debug/clinical-trials-eu)  
-**Date dernière mise à jour :** 25 avril 2026
+**GitHub :** https://github.com/Thomas-L-debug/clinical-trials-eu  
+**Date dernière mise à jour :** 30 avril 2026
 
-## 1. Environnement Actuel (WSL Ubuntu)
+## Stack Technique Actuelle
 
-- **Flutter** → `~/development/flutter` (version 3.41.7 stable)
-- **Android SDK** → `~/development/android`
-- **Java** → OpenJDK 21
-- **Docker + docker-compose** installé
-- **Git** configuré en SSH
+### Architecture Globale
+- **Frontend** : Flutter (Web + futur Android/iOS)
+- **Backend** : Dart + Shelf (même langage que Flutter)
+- **Base de données** : PostgreSQL 16
+- **Infrastructure** : Docker multi-stage + docker-compose
+- **Outils** : Makefile, Git, WSL Ubuntu
 
-## 2. Commandes Principales (Makefile)
+### Structure du Projet
+
+clinical-trials-eu/
+├── flutter_app/              # Application Flutter
+├── backend/                  # API Dart Shelf
+│   ├── bin/
+│   │   ├── server.dart
+│   │   └── fetch_ctis.dart
+│   ├── lib/
+│   └── pubspec.yaml
+├── data/                     # Scripts & données brutes CTIS
+├── database/migrations/      # Migrations SQL
+├── docker/
+│   ├── dev/                  # Flutter + Nginx
+│   └── backend/              # Dockerfile Backend
+├── PROJECT_CONTEXT.md
+├── Makefile
+├── .gitignore
+└── .dockerignore
+
+
+### Commandes Principales (Makefile)
 
 ```bash
-cd ~/Projects/clinical-trials-eu
+make help                  # Liste toutes les commandes
+make dev                   # Mode développement Flutter (hot-reload)
+make backend-run           # Lancer le backend (port 8081)
+make data-fetch            # Récupérer essais depuis API CTIS
+make db-up                 # Lancer seulement PostgreSQL
+make db-shell              # Accéder à psql
+make down                  # Tout arrêter
+```
 
-make help                 # Voir toutes les commandes
-make up                   # Première fois (long) → build + démarrage
-make up-fast              # Après le 1er build (rapide)
-make down                 # Arrêter tout
-make rebuild              # Tout reconstruire + relancer
-make shell                # Ouvrir terminal dans le container
-make run-web              # Lancer l'app web
-make doctor               # Vérifier Flutter
-make lint                 # Format + analyze
+### État Actuel (30 avril 2026)
+
+- Infrastructure Docker stable (multi-stage + profiles dev/prod)
+- Backend Shelf fonctionnel avec connexion PostgreSQL
+- API /health et /trials opérationnelles
+- Script fetch_ctis.dart → récupère 50 essais par page (API CTIS officielle)
+- Base de données prête avec table trials
+- .gitignore et .dockerignore optimisés
+- Hot-reload Flutter + Nginx en production-like
+
+### Prochaines Étapes Prioritaires
+
+- Insertion automatique des données CTIS dans PostgreSQL
+- Création du modèle Trial + mapping complet
+- Endpoint d’insertion + vulgarisation des résumés (LLM)
+- Connexion Flutter → Backend
+- Cron job quotidien + CI/CD

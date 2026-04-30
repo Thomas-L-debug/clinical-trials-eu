@@ -1,14 +1,26 @@
-version: '3.9'
-
 services:
+  # ==================== PRODUCTION (Nginx) ====================
+  flutter-web:
+    build:
+      context: .
+      dockerfile: docker/dev/Dockerfile
+      target: prod
+    container_name: clinical-trials-eu-flutter-web
+    ports:
+      - "8080:8080"
+    profiles: ["prod"]
+
+  # ==================== DÉVELOPPEMENT (Hot-reload) ====================
   flutter-dev:
     build:
       context: .
       dockerfile: docker/dev/Dockerfile
-    container_name: clinical-trials-eu-flutter
-    volumes:
-      - ./flutter_app:/app
+      target: dev
+    container_name: clinical-trials-eu-flutter-dev
     ports:
       - "8080:8080"
+    volumes:
+      - ./flutter_app:/app
     stdin_open: true
     tty: true
+    profiles: ["dev"]

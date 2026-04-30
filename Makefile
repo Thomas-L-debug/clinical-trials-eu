@@ -12,10 +12,8 @@ GREEN  := $(shell printf "\033[0;32m")
 YELLOW := $(shell printf "\033[0;33m")
 RESET  := $(shell printf "\033[0m")
 
-# Cible par défaut
 .DEFAULT_GOAL := help
-
-.PHONY: help up up-fast down build rebuild shell pub-get run-web doctor analyze test format lint clean logs prune
+.PHONY: help up up-fast down rebuild build run shell pub-get run-web doctor analyze test format lint clean logs prune dev dev-hot
 
 # ====================== AIDE ======================
 ## help          : Affiche cette aide
@@ -26,7 +24,7 @@ help:
 	@awk '/^[a-zA-Z\-_0-9%]+:/ { \
 		helpCommand = $$1; \
 		if (match(lastLine, /^## /)) { \
-			printf "  ${YELLOW}%-15s${RESET} %s\n", \
+			printf "  ${YELLOW}%-18s${RESET} %s\n", \
 				helpCommand, substr(lastLine, 4) \
 		} \
 	} \
@@ -34,47 +32,57 @@ help:
 	@echo ""
 
 # ====================== DOCKER ======================
-## up            : Build + lance (premier lancement)
-up:
-	docker compose up --build -d
+## up            : Build + lance (recommandé)
+up: build run
+
+## up-fast       : Lance sans rebuild (quand l'image est déjà bonne)
+up-fast: run
+
+## run           : Démarre les containers (sans rebuild)
+run:
+	docker compose up -d
 	@echo "${GREEN}✅ Application lancée !${RESET}"
 	@echo "   Web → http://localhost:${PORT_WEB}"
 
-## up-fast       : Lance sans rebuild (rapide)
-up-fast:
-	docker compose up -d
-	@echo "${GREEN}✅ Application lancée (fast mode)!${RESET}"
-	@echo "   Web → http://localhost:${PORT_WEB}"
-
-## down          : Arrête tous les containers
-down:
-	docker compose down --remove-orphans
-
-## rebuild       : Tout reconstruire + relancer
-rebuild: down build up
-
-## build         : Reconstruit l'image
+## build         : Reconstruit l'image (multi-stage Flutter + Nginx)
 build:
 	docker compose build --no-cache
+	@echo "${GREEN}✅ Image reconstruite avec succès${RESET}"
+
+## rebuild       : Tout nettoyer + reconstruire + relancer
+rebuild: down build run
+
+## down          : Arrête et supprime les containers
+down:
+	docker compose down --remove-orphans
 
 ## logs          : Voir les logs en temps réel
 logs:
 	docker compose logs -f ${FLUTTER_SERVICE}
+
+# ====================== DÉVELOPPEMENT RAPIDE ======================
+## dev           : Mode développement avec hot-reload (recommandé pour coder)
+dev:
+	@echo "${YELLOW}Lancement en mode dev (hot-reload web)...${RESET}"
+	docker compose up -d
+	docker compose exec ${FLUTTER_SERVICE} flutter run -d web-server \
+		--web-port=${PORT_WEB} \
+		--web-hostname=0.0.0.0 \
+		--no-tree-shake-icons
+
+## dev-hot       : Alias pour dev (plus explicite)
+dev-hot: dev
 
 # ====================== FLUTTER ======================
 ## shell         : Terminal dans le container
 shell:
 	docker compose exec ${FLUTTER_SERVICE} bash
 
-## pub-get       : Mise à jour packages
+## pub-get       : flutter pub get
 pub-get:
 	docker compose exec ${FLUTTER_SERVICE} flutter pub get
 
-## run-web       : Lance l'app web
-run-web:
-	docker compose exec ${FLUTTER_SERVICE} flutter run -d web --web-port=${PORT_WEB} --web-browser-flag="--disable-web-security"
-
-## doctor        : Vérification Flutter
+## doctor        : flutter doctor
 doctor:
 	docker compose exec ${FLUTTER_SERVICE} flutter doctor
 
@@ -84,18 +92,36 @@ lint: format analyze
 
 ## format        : Formate le code
 format:
-	docker compose exec ${FLUTTER_SERVICE} dart format lib/
+	docker compose exec ${FLUTTER_SERVICE} dart format lib/ -l 120
 
 ## analyze       : Analyse statique
 analyze:
 	docker compose exec ${FLUTTER_SERVICE} flutter analyze
 
 # ====================== NETTOYAGE ======================
-## clean         : Nettoyage complet
+## clean         : Nettoyage Flutter + Docker
 clean:
-	docker compose exec ${FLUTTER_SERVICE} flutter clean
+	docker compose exec ${FLUTTER_SERVICE} flutter clean || true
 	docker compose down --rmi local --remove-orphans
 
-## prune         : Nettoie cache Docker
+## prune         : Nettoie tout le cache Docker
 prune:
-	docker system prune -f --volumes
+	docker system prune -af --volumes
+
+# ====================== DÉVELOPPEMENT & PRODUCTION ======================
+## dev           : Mode développement avec hot-reload (RECOMMANDÉ)
+dev:
+	@echo "${YELLOW}🚀 Lancement du mode DEV avec hot-reload...${RESET}"
+	@echo "→ Code monté en live depuis ./flutter_app"
+	@echo "→ Ouvre http://localhost:8080 une fois lancé"
+	docker compose --profile dev up -d --build flutter-dev
+	@echo "${GREEN}Container démarré. Attends 5-10s puis ouvre le navigateur.${RESET}"
+
+## prod          : Version production (Nginx)
+prod:
+	docker compose --profile prod up -d --build flutter-web
+	@echo "${GREEN}✅ Production lancée → http://localhost:8080${RESET}"
+
+## down          : Arrête tout
+down:
+	docker compose --profile dev --profile prod down --remove-orphans

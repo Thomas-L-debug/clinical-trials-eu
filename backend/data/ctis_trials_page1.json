@@ -1,0 +1,1647 @@
+{
+  "showWarning": false,
+  "pagination": {
+    "totalRecords": 11484,
+    "currentPage": 1,
+    "totalPages": 230,
+    "nextPage": true,
+    "prevPage": false
+  },
+  "data": [
+    {
+      "ctNumber": "2025-524778-41-00",
+      "ctStatus": 11,
+      "ctTitle": "Oral rifaximin in patients with opioid use disorder (OUD): multicenter clinical trial on the microbiota–gut–brain axis",
+      "conditions": "substance use disorder",
+      "trialCountries": [
+        "Italy:11"
+      ],
+      "decisionDateOverall": "29/04/2026",
+      "decisionDate": "IT: 29/04/2026",
+      "therapeuticAreas": [
+        "Psychiatry and Psychology [F] - Mental Disorders [F03]"
+      ],
+      "sponsor": "Fondazione Santa Lucia",
+      "sponsorType": "Hospital/Clinic/Other health care facility",
+      "trialPhase": "Therapeutic exploratory (Phase II)",
+      "endPoint": "Improvement in: Intestinal permeability measures, Fecal microbiota characteristics, Adverse events and infections",
+      "product": "Normix 200 mg compresse rivestite con film, The placebo is a film-coated oral tablet designed to be comparable in appearance, administration, and handling to the investigational medicinal product (rifaximin 200 mg film-coated tablets), while containing no active pharmaceutical ingredient. The placebo consists exclusively of commonly used pharmaceutical excipients with established safety profiles and is administered solely to maintain blinding in the clinical trial.",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "50",
+      "primaryEndPoint": "The primary efficacy endpoints concern the improvement of craving and social disconnection/isolation in OUD paties treated with rifaximin compared with placebo. Specifically: Intensity of opioid craving, Indicators of social isolation/disconnection, Tapering of methadone therapy",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2024-520067-13-00",
+      "ctStatus": 2,
+      "ctTitle": "EaRly impAct theraPy with ceftazidime-avibactam via rapID diagnostics versus standard of care antibiotics and diagnostics in patients with bloodstream infection, hospital-acquired pneumonia or ventilator-associated pneumonia due to Pseudomonas aeruginosa or carbapenemase producing Enterobacterales (\"RAPID\")",
+      "shortTitle": "22-002",
+      "conditions": "Bloodstream Infection, Ventilator Associated Pneumonia and Hospital-Acquired Pneumonia",
+      "trialCountries": [
+        "Italy:2"
+      ],
+      "decisionDateOverall": "29/04/2026",
+      "decisionDate": "IT: 29/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Bacterial Infections and Mycoses [C01]"
+      ],
+      "sponsor": "National University Of Singapore",
+      "sponsorType": "Educational Institution",
+      "trialPhase": "Therapeutic use (Phase IV)",
+      "endPoint": "Clinical response at Day 7 and Day 14 post index culture, as defined by a set of clinical criteria signifying cardiopulmonary stability for 48 hours, All-cause mortality at Day 14, Day 28, and Day 60 post index culture, Days alive and out of hospital in the 60 days from date of index culture, Length of stay in ICU in the 60 days from date of index culture, Length of stay in hospital in the 60 days from date of index culture, Type of accommodation on discharge from hospital, Duration of mechanical ventilation in the 60 days from date of index culture, Persistence of bacteremia at Day 4 from date of index blood culture, Persistence of microbiologic growth at Day 7 from date of index respiratory culture, of at least one organism growing from index respiratory culture, Development of resistance to meropenem or ceftazidime-avibactam in any bacteria grown from clinically-indicated cultures collected in the 28 days from date of index culture, Development of acute kidney injury (modified KDIGO definitions) in the 28 days from date of index culture<, Development of Clostridioides difficile diarrhea in the 28 days from date of index culture collection, Time from index culture sample received by the laboratory to antibiotic therapy active in vitro (in hours)<, Percentage of patients undergoing modification of antibiotic therapy in the 7 days after microbiology diagnostics for the index culture, Number of days on antibiotics in the 28 days from date of index culture collection (total, and by antibiotic type)<, Time from index culture sample received by the laboratory to detection of carbapenem resistance (in hours, Time from index culture sample received by the laboratory to detection of resistance to ceftriaxone/cefotaxime (in hours)<, Time from index culture sample received by the laboratory to detection of Acinetobacter baumannii calcoaceitcus complex or Stenotrophomonas maltophilia (in hours, Functional outcome at Day 28 and Day 60 from collection of index culture, Composite outcome measure defined by Desirability of Outcome Ranking (DOOR) at Day 28 from index culture sample, Cost-effectiveness of the Intervention, compared to Control, from the health system perspective, Up to 60 days from date of index culture",
+      "product": "-, -, -, -, -, Zavicefta 2 g/0.5 g powder for concentrate for solution for infusion, -",
+      "ageRangeSecondary": [
+        "8",
+        "7"
+      ],
+      "ageGroup": "18-64 years, 65+ years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "80",
+      "primaryEndPoint": "Composite endpoint of all-cause mortality and/or no improvement in Sequential Organ Failure Assessment (SOFA) score at Day 14 post index culture",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-524134-26-00",
+      "ctStatus": 2,
+      "ctTitle": "Effect of NBI-921355 on corticospinal excitability in healthy participants",
+      "shortTitle": "NBI-921355-1785",
+      "conditions": "Epilepsy",
+      "trialCountries": [
+        "Netherlands:2"
+      ],
+      "decisionDateOverall": "29/04/2026",
+      "decisionDate": "NL: 29/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Nervous System Diseases [C10]"
+      ],
+      "sponsor": "Neurocrine Biosciences Inc.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Human Pharmacology (Phase I)-  Other",
+      "endPoint": "",
+      "product": "",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "24",
+      "primaryEndPoint": "",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-525053-39-00",
+      "ctStatus": 2,
+      "ctTitle": "An International, Multicenter, Randomized, Double-Blind, Placebo-Controlled Phase III Trial on the Effects of EA-230 on the Length of Hospital Stay Following On-Pump Coronary Artery Bypass Grafting Surgery",
+      "shortTitle": "EASY BOOST",
+      "conditions": "Coronary artery disease",
+      "trialCountries": [
+        "Belgium:2",
+        "Netherlands:2"
+      ],
+      "decisionDateOverall": "29/04/2026",
+      "decisionDate": "BE: 29/04/2026, NL: 29/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Cardiovascular Diseases [C14]"
+      ],
+      "sponsor": "EBI Anti Sepsis B.V.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic confirmatory  (Phase III)",
+      "endPoint": "As measured by the median postoperative duration, from the moment of first incision until the time when a patient is eligible to be discharged from the ICU and transferred to the general ward, compared between treatment arms, according to the definitions provided in Summary Table 4. ICU and Hospital Discharge Criteria., As measured by the median postoperative duration, from the moment of first incision until the time when a patient is actually discharged from the ICU, and discharged from the hospital, respectively, compared between treatment arms., As measured by the median cumulative duration of moderate and severe Single Organ Outcome Measures (SOOMs) according to the European Perioperative Clinical Outcome (EPCO) definitions during the trial  compared between treatment arms., As measured by: A.\tMedian cumulative Net Fluid Balance (NFB) at the start of Investigational Medicinal Product (IMP) administration (T0) and up to 24 and 48 hours thereafter, compared between treatment arms. B.\tCumulative dose of vasopressors and inotropes used and vasopressor-inotropic scores up to 0, 24 and 48 hours after IMP administration, compared between treatment arms., As determined by: A.\tBlood plasma levels of EA-230 measured just before the end of infusion (T4) in all patients. B.\tBlood plasma levels of EA-230 measured at T0, T0.5, T1, T2, T3 and T4  in a subset of patients ., As measured by the Incidence of treatment-emergent (Serious) Adverse Events ((S)AEs) and Adverse Drug Reactions (ADRs) during the trial period.",
+      "product": "EA-230, NaCl 29 mg/ml in water for injection",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "65+ years, 18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "150",
+      "primaryEndPoint": "As measured by the median postoperative duration, from the moment of first incision until the time when a patient is eligible to be discharged from the hospital, compared between treatment arms, according to the definitions provided in Summary Table 4. ICU and Hospital Discharge Criteria.",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-524719-35-00",
+      "ctStatus": 2,
+      "ctTitle": "A Phase 1b/2a, Multicenter, Double-Blind, Placebo-Controlled Study to Evaluate the Safety, Efficacy, and Pharmacokinetics of MB-001 in Participants With Moderately to Severely Active Ulcerative Colitis",
+      "shortTitle": "MB-001-102",
+      "conditions": "Ulcerative Colitis",
+      "trialCountries": [
+        "Poland:2"
+      ],
+      "decisionDateOverall": "29/04/2026",
+      "decisionDate": "PL: 29/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Digestive System Diseases [C06]"
+      ],
+      "sponsor": "Mage Biologics Inc.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Phase I and Phase II (Integrated)- Other",
+      "endPoint": "Proportion of participants achieving endoscopic improvement, defined as an MES ≤ 1, at Week 12, Proportion of participants achieving endoscopic remission, defined as an MES = 0, at Week 12, Proportion of participants achieving mMS clinical response, defined as a reduction from Baseline ≥ 2 points and ≥ 30% in mMS, with a reduction ≥ 1 in RB subscore or absolute RB subscore ≤ 1, at Week 12, Proportion of participants achieving symptomatic remission, defined as a SF subscore of 0 and an RB subscore of 0, at Week 12, Proportion of participants achieving histologic remission, defined as a Geboes Score  2B.0, at Week 12, Proportion of participants achieving histologic remission, defined as Robarts Histopathology Index ≤ 3 with subscores of 0 for lamina propria neutrophils, neutrophils in the epithelium, and erosions/ulcers, at Week 12, Proportion of participants achieving histologic endoscopic mucosal improvement, defined as a Geboes Score ≤ 3.1 and MES ≤ 1, at Week 12, Proportion of participants achieving mucosal healing, defined as a Geboes Score ≤ 2B.1 and MES ≤ 1, at Week 12",
+      "product": "The placebo has the same formulation excipients as the MB-001 drug product except that it contains no active ingredient., MB-001",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "65+ years, 18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "30",
+      "primaryEndPoint": "Incidence of adverse events (AEs), treatment emergent AEs (TEAEs), serious AEs, AEs of special interest, and treatment discontinuation due to TEAEs through Week 12, Changes in clinical laboratory parameters, physical examination findings, and vital signs through Week 12, Proportion of participants achieving clinical remission, defined by a modified Mayo Score (mMS) ≤ 2 with a Mayo endoscopic subscore (MES) ≤ 1, rectal bleeding (RB) subscore of 0, and stool frequency (SF) subscore ≤ 1, at Week 12",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-523511-11-00",
+      "ctStatus": 2,
+      "ctTitle": "A Phase 3, Randomized, Active- and Placebo-Controlled, Partially-Blinded Study to Compare the Efficacy and Safety of KAI-9531 Administered Once Weekly Versus Semaglutide and Placebo in Participants Living with Obesity Who Do Not Have Diabetes",
+      "shortTitle": "K9531-3107",
+      "conditions": "Obesity",
+      "trialCountries": [
+        "Poland:2"
+      ],
+      "decisionDateOverall": "29/04/2026",
+      "decisionDate": "PL: 29/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Nutritional and Metabolic Diseases [C18]"
+      ],
+      "sponsor": "Kailera Therapeutics Inc.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic confirmatory  (Phase III)",
+      "endPoint": "controlled for Type I error From baseline at Week 76 Percentage of participants with ≥5%,≥10%, ≥15%, ≥20%, and ≥25% reduction in body weight (kg) Change in waist circumference (cm) Change in absolute body weight (kg), controlled for Type I error From baseline at Week 76 Percentage of participants with ≥5% reduction in body weight (kg) Change in  - SBP  − Triglycerides (mg/dL) − HDL-cholesterol (mg/dL)  − Non-HDL-cholesterol (mg/dL)  Change in WQOL-LiteCT Physical function composite score, not controlled for Type I error from baseline at Week 76: • Percentage of participants with ≥30% reduction in body weight (kg) • Change in BMI (kg/m2)  • Change in:   − CoEQ Craving Control score − Positive Mood score − Craving for Sweets score − Craving for Savory food score − Hunger score − Satiety score − Combined score  • Change in FNQ score, not controlled for Type I error Number ofTEAEs, not controlled for Type I error  ADA NAb, not controlled for Type I error  Concentrations of KAI-9531",
+      "product": "Wegovy 0.25 mg FlexTouch solution for injection in pre-filled pen, Wegovy 0.5 mg FlexTouch solution for injection in pre-filled pen, Wegovy 1.7 mg FlexTouch solution for injection in pre-filled pen, Wegovy 2.4 mg FlexTouch solution for injection in pre-filled pen, KAI-9531, Wegovy 1 mg FlexTouch solution for injection in pre-filled pen, KAI-9531, KAI-9531",
+      "ageRangeSecondary": [
+        "8",
+        "7"
+      ],
+      "ageGroup": "65+ years, 18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "126",
+      "primaryEndPoint": "Percent change in body weight (kg) from baseline at Week 76",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-522468-34-00",
+      "ctStatus": 2,
+      "ctTitle": "Phase I clinical trial evaluating the safety, tolerability, and absorption of a topical product containing latanoprost acid in healthy participants.",
+      "shortTitle": "LA/BRP/02/25",
+      "conditions": "Androgenetic alopecia",
+      "trialCountries": [
+        "Poland:2"
+      ],
+      "decisionDateOverall": "29/04/2026",
+      "decisionDate": "PL: 29/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Skin and Connective Tissue Diseases [C17]"
+      ],
+      "sponsor": "Bioresearch Pharma S.A.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Human Pharmacology (Phase I)-  Other",
+      "endPoint": "",
+      "product": "",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "24",
+      "primaryEndPoint": "",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-525006-37-00",
+      "ctStatus": 2,
+      "ctTitle": "THE ROLE OF PANCREATIC STONE PROTEIN (PSP) AND PSP-GUIDED EARLY MEROPENEM TREATMENT TO MITIGATE SEPSIS RISK AT THE  EMERGENCY DEPARTMENT: THE PROMISE DOUBLE BLIND, PHASE III, RANDOMIZED CONTROLLED CLINICAL TRIAL",
+      "shortTitle": "PROMISE",
+      "conditions": "Infection and sepsis",
+      "trialCountries": [
+        "Greece:2"
+      ],
+      "decisionDateOverall": "29/04/2026",
+      "decisionDate": "GR: 29/04/2026",
+      "therapeuticAreas": [
+        "Analytical, Diagnostic and Therapeutic Techniques and Equipment [E] - Therapeutics [E02]",
+        "Diseases [C] - Pathological Conditions, Signs and Symptoms [C23]"
+      ],
+      "sponsor": "Elliniko Institouto Meletis Tis Sipsis",
+      "sponsorType": "Laboratory/Research/Testing facility",
+      "trialPhase": "Therapeutic confirmatory  (Phase III)",
+      "endPoint": "The key secondary endpoint is the progression into organ dysfunction defined as increases of total SOFA-2 score by 2 or more points the first 24 hours. The aim is to evaluate if early administration of antibiotics guided by early sepsis detection with the device under investigation is associated with a reduction in progression into organ dysfunction compared to the control group., Comparative changes of the total SOFA-2 scores by the first 48 and 96 hours., Time to stop of antibiotics (defined as treatment started at the discretion of the attending physicians), Rate of hospitalization, Time to hospital discharge alive, 90-day mortality, Kinetics of PSP over-time and per type of infection, Rate of resistant fecal flora, Primary endpoint, key secondary endpoint and all secondary endpoints for patients classified into infections after adjudication",
+      "product": "Meronem 1g κόνις για ενέσιμο διάλυμα ή διάλυμα προς έγχυση, Sodium Chloride 0,9%",
+      "ageRangeSecondary": [
+        "7",
+        "8"
+      ],
+      "ageGroup": "65+ years, 18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "398",
+      "primaryEndPoint": "The primary endpoint of this study is 28-day mortality, defined as death from any cause occurring within 28 days after randomization. The aim is to evaluate if early administration of antibiotics guided by early sepsis detection with the device under investigation is associated with a reduction in short-term mortality compared to the control group. Survival is censored at day 28 since this is globally recognized as the survival censoring point in all sepsis trials.",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-524876-43-00",
+      "ctStatus": 2,
+      "ctTitle": "HO183 CAR T: A phase III randomized trial comparing academically produced BCMA-directed CAR T-cells (ARI0002h) with standard of care regimen in patients with relapsed/refractory multiple myeloma",
+      "conditions": "relapsed/refractory multiple myeloma",
+      "trialCountries": [
+        "Netherlands:2"
+      ],
+      "decisionDateOverall": "29/04/2026",
+      "decisionDate": "NL: 29/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Neoplasms [C04]"
+      ],
+      "sponsor": "Universitair Medisch Centrum Groningen",
+      "sponsorType": "Hospital/Clinic/Other health care facility",
+      "trialPhase": "Therapeutic confirmatory  (Phase III)",
+      "endPoint": "Safety and toxicity of ARI0002h CAR T-cells and SoC, Overall response rate, Overall and sustained MRD-negativity, MRD-negative CR/sCR and MRD-negative VGPR+, Correlation of MRD-negativity with efficacy endpoints, Best overall response, Duration of response, Overall survival from date of randomization, Patient Reported Outcome/Quality of Life, CAR T-cell expansion, persistence, and T-cell characteristics in ARI0002h-treated patients, PoC CAR T-cell production characteristics, The association of the functional characteristics of the CAR T-cell products with CAR T-cell expansion, persistence, AEs, response rates and PFS, Proportion of successful batches, Production and additional health care costs",
+      "product": "Kyprolis 60 mg powder for solution for infusion, Kyprolis 30 mg powder for solution for infusion, DARZALEX 1800 mg solution for injection, ENDOXAN omhulde tablet, omhulde tabletten, 50 mg, Cesnicabtagene autoleucel, Kyprolis 10 mg powder for solution for infusion, Dexamethason Teva 4 mg, tabletten, Bortezomib Accord 3.5 mg powder for solution for injection, Empliciti 300 mg powder for concentrate for solution for infusion., Dexamethason Activase 2 mg tabletten, Pomalidomide Accord 4 mg hard capsules, Empliciti 400 mg powder for concentrate for solution for infusion.",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "65+ years, 18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "126",
+      "primaryEndPoint": "Progression free survival",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2026-525944-14-00",
+      "ctStatus": 2,
+      "ctTitle": "Bioequivalence clinical trial of two formulations of canagliflozin",
+      "shortTitle": "N-CAN-25-302",
+      "conditions": "Healthy volunteers",
+      "trialCountries": [
+        "Spain:2"
+      ],
+      "decisionDateOverall": "29/04/2026",
+      "decisionDate": "ES: 29/04/2026",
+      "therapeuticAreas": [
+        "Not possible to specify"
+      ],
+      "sponsor": "Laboratorios Normon S.A.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Human Pharmacology (Phase I)- Bioequivalence Study",
+      "endPoint": "",
+      "product": "",
+      "ageRangeSecondary": [
+        "9"
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "36",
+      "primaryEndPoint": "",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2026-525278-20-00",
+      "ctStatus": 2,
+      "ctTitle": "Bioequivalence clinical trial of two formulations of loperamide.",
+      "shortTitle": "N-LOP-25-303",
+      "conditions": "Healthy volunteers",
+      "trialCountries": [
+        "Spain:2"
+      ],
+      "decisionDateOverall": "29/04/2026",
+      "decisionDate": "ES: 29/04/2026",
+      "therapeuticAreas": [
+        "Not possible to specify"
+      ],
+      "sponsor": "Laboratorios Normon S.A.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Human Pharmacology (Phase I)- Bioequivalence Study",
+      "endPoint": "",
+      "product": "",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "40",
+      "primaryEndPoint": "",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2026-525930-47-00",
+      "ctStatus": 2,
+      "ctTitle": "Pilot, randomized, crossover, comparative bioavailability study of two tadalafil formulations (oral suspension and film-coated tablets) after a single oral dose of 20 mg under fasting conditions in healthy male volunteers.",
+      "shortTitle": "FMLD-TALLIN-69_FIP-A",
+      "conditions": "Healthy volunteers",
+      "trialCountries": [
+        "Spain:2"
+      ],
+      "decisionDateOverall": "29/04/2026",
+      "decisionDate": "ES: 29/04/2026",
+      "therapeuticAreas": [
+        "Not possible to specify"
+      ],
+      "sponsor": "Farmalider S.A.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Human Pharmacology (Phase I)-  Other",
+      "endPoint": "",
+      "product": "",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "8",
+      "primaryEndPoint": "",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-524058-32-00",
+      "ctStatus": 2,
+      "ctTitle": "A Phase 2a, Randomized, Participant- and Investigator blinded, Parallel-group, Placebo-controlled, Multicenter Study to Assess the Safety, Tolerability, and Treatment Response of GXV813 in Hospitalized Adults with DSM-5 Schizophrenia (STAR-1)",
+      "shortTitle": "CGXV813B12201",
+      "conditions": "Schizophrenia",
+      "trialCountries": [
+        "Bulgaria:2"
+      ],
+      "decisionDateOverall": "29/04/2026",
+      "decisionDate": "BG: 29/04/2026",
+      "therapeuticAreas": [
+        "Psychiatry and Psychology [F] - Mental Disorders [F03]"
+      ],
+      "sponsor": "Novartis Pharma AG",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic exploratory (Phase II)",
+      "endPoint": "Occurrence and severity of AEs, clinical laboratory tests, vital signs, ECG findings, physical examination, Modified Simpson-Angus Scale (mSAS), Barnes Akathisia Rating Scale (BARS), Abnormal Involuntary Movement Scale (AIMS) and suicidality assessment (Columbia Suicide Severity Rating Scale C-SSRS), Participant response; response is defined as clinically significant reduction in total PANSS (≥30% improvement in PANSS total score),OR a 1-point difference CGI-S-score at week 6., Change from baseline in PANSS positive subscore at week 6, Change from baseline in PANSS negative subscore and Marder negative factor score at week 6, Change from baseline in Clinical Global Impression‒Severity (CGI-S) scale at week 6, PK parameters such as but not limited to area under the plasma concentration-time curve (AUC), maximum observed plasma concentration (Cmax)",
+      "product": "GXV813, GXV813, Placebo 0 mg Hard gelatin capsule",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "42",
+      "primaryEndPoint": "Change from baseline in PANSS (Positive and Negative Symptom Scale) total score at 6 weeks",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-521145-24-01",
+      "ctStatus": 2,
+      "ctTitle": "A Phase 1/2, Open-Label Study to Evaluate the Safety and Efficacy of Autologous CD19-specific Chimeric Antigen Receptor T cells (CABA-201) in Subjects with Active Idiopathic Inflammatory Myopathy or Active Juvenile Idiopathic Inflammatory Myopathy",
+      "shortTitle": "CAB-201-002",
+      "conditions": "Active Idiopathic Inflammatory Myopathy including dermatomyositis, anti-synthetase syndrome, immune-mediated necrotizing myopathy or Juvenile Idiopathic Inflammatory Myopathy",
+      "trialCountries": [
+        "Italy:2",
+        "Spain:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "IT: 29/04/2026, ES: 28/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Immune System Diseases [C20]"
+      ],
+      "sponsor": "Cabaletta Bio Inc.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Phase I and Phase II (Integrated)- Other",
+      "endPoint": "Incidence and severity of AEs, including changes in laboratory values and vital signs, Levels of B cells in the blood, Levels of CABA-201-positive T cells in the blood, Levels of muscle enzymes (CK, LDH, AST, ALT, and aldolase) in serum, Levels of autoantibodies from the Myositis-Specific Autoantibody Panel (e.g., MDA-5, Jo-1, and HMGCR) in the serum, Total Improvement Score (0 to 100, with higher scores indicating greater improvement) based on the Core Set Measures",
+      "product": "Genoxal 1.000 mg polvo para solución inyectable y para perfusión, Fludarabin Accord 25 mg/ml Konzentrat zur Herstellung einer Injektions- /Infusionslösung, Endoxan Baxter 1 g Polvere per soluzione iniettabile, Fludarabina Teva 25 mg/ml concentrado para solución para perfusión o inyección EFG, Fludarabina Teva, concentrato per soluzione iniettabile o per infusione, Endoxan",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "0-17 years, 18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "6",
+      "primaryEndPoint": "Incidence and severity of AEs",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-522872-10-00",
+      "ctStatus": 2,
+      "ctTitle": "A Multicenter, Long-term, Open-Label, Safety, Tolerability, and Efficacy Study of Azetukalner in Bipolar I or II Depression",
+      "shortTitle": "XPF-010-B302",
+      "conditions": "Depressive episodes associated with Bipolar disorder I or II (Bipolar Depression)",
+      "trialCountries": [
+        "Germany:2",
+        "France:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "FR: 28/04/2026, DE: 29/04/2026",
+      "therapeuticAreas": [
+        "Psychiatry and Psychology [F] - Mental Disorders [F03]"
+      ],
+      "sponsor": "Xenon Pharmaceuticals Inc.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic confirmatory  (Phase III)",
+      "endPoint": "Change from baseline in the MADRS total score over time., Change in CGI-S score over time., Change from baseline in the SHAPS total score over time.",
+      "product": "XPF-010",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years, 65+ years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "20",
+      "primaryEndPoint": "Severity and frequency of TEAEs, SAEs, AESIs and ECIs",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-523448-10-00",
+      "ctStatus": 2,
+      "ctTitle": "Efficacy of cell therapy with allo-MSCs in patients with gvhd resistant to ruxolitinib second line therapy: a Phase IIB Clinical Trial - MSC-GRR2 Study",
+      "conditions": "Gvhd Resistant to ruxolitinib and steroids",
+      "trialCountries": [
+        "Italy:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "IT: 28/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Hemic and Lymphatic Diseases [C15]"
+      ],
+      "sponsor": "Azienda Socio Sanitaria Territoriale Degli Spedali Civili Di Brescia",
+      "sponsorType": "Hospital/Clinic/Other health care facility",
+      "trialPhase": "Therapeutic exploratory (Phase II)",
+      "endPoint": "ORR at day 56 and at 3 months, Best overall response within 3 months, Duration of response, Cumulative corticosteroid dose up to day 56 and at 3 months, Overall survival (OS) and progression-free survival (PFS) at 6 and 12 months, Non-relapse mortality (NRM) at 3, 6, and 12 months, Incidence of chronic GvHD at 12 months, Rate of corticosteroid discontinuation, Impact on quality of life (EQ-5D) at end of treatment and during follow-up, Safety profile up to 12 months, including incidence of serious adverse events, late infections, and product-related toxicities",
+      "product": "MC0518",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years, 65+ years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "26",
+      "primaryEndPoint": "Overall response rate (ORR) on day 28, defined as the sum of complete and partial responses according to modified MAGIC/Glucksberg criteria.",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "28/04/2026",
+      "lastPublicationUpdate": "29/04/2026"
+    },
+    {
+      "ctNumber": "2026-526135-18-00",
+      "ctStatus": 2,
+      "ctTitle": "A randomised, open-label, single-centre, drug-drug-interaction trial to evaluate the impact of carboxylesterase 2 (CES2)- and CYP3A4-inhibition on the pharmacokinetics of buloxibutid in healthy volunteers",
+      "shortTitle": "VP-C21-016",
+      "conditions": "Idiopathic pulmonary fibrosis",
+      "trialCountries": [
+        "Sweden:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "SE: 28/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Respiratory Tract Diseases [C08]"
+      ],
+      "sponsor": "Vicore Pharma AB",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Human Pharmacology (Phase I)-  Other",
+      "endPoint": "",
+      "product": "",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "24",
+      "primaryEndPoint": "",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "28/04/2026",
+      "lastPublicationUpdate": "29/04/2026"
+    },
+    {
+      "ctNumber": "2025-524056-63-00",
+      "ctStatus": 2,
+      "ctTitle": "​​AMG 436 as monotherapy and combination therapy in participants with Microsatellite Instability-High/Mismatch Repair Deficient Solid Tumors ​",
+      "shortTitle": "20250004",
+      "conditions": "microsatellite instability high/mismatch repair deficient (MSI-H/dMMR) solid tumors",
+      "trialCountries": [
+        "France:2",
+        "Belgium:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "BE: 29/04/2026, FR: 28/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Neoplasms [C04]"
+      ],
+      "sponsor": "Amgen Inc.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Human Pharmacology (Phase I)- First administration to humans",
+      "endPoint": "",
+      "product": "",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years, 65+ years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "47",
+      "primaryEndPoint": "",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2024-520218-23-00",
+      "ctStatus": 2,
+      "ctTitle": "An Adaptive, 2-Part, Randomized, Double-Blind, Placebo-Controlled Trial to Evaluate the Efficacy and Safety of IKT-001 in Pulmonary Arterial Hypertension.",
+      "shortTitle": "IKT-001-201",
+      "conditions": "Pulmonary Arterial Hypertension",
+      "trialCountries": [
+        "Belgium:2",
+        "Latvia:2",
+        "Denmark:2",
+        "Czechia:2",
+        "France:2",
+        "Netherlands:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "BE: 29/04/2026, CZ: 29/04/2026, FR: 29/04/2026, NL: 28/04/2026, DK: 28/04/2026, LV: 29/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Cardiovascular Diseases [C14]"
+      ],
+      "sponsor": "Inhibikase Therapeutics Inc.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Phase II and Phase III (Integrated)",
+      "endPoint": "1. Part A only: Change from baseline in 6MWD at Week 24, 2. Part B only: Change from baseline in PVR at Week 24, 3. Change from baseline in NT-proBNP concentrations at Week 24, 4. Time to all-cause death or the first occurrence of a clinical worsening event (time to clinical worsening), 5. Proportion of participants who improve from baseline in WHO FC or maintain WHO FC II from baseline to Week 24, 6. Proportion of participants who maintain low or intermediate-low risk score or achieve a lower ESC/ERS 4 strata risk score at Week 24, 7. Change from baseline in HRQoL / EmPHasis-10 total score at Week 24",
+      "product": "IkT-001Pro, Placebo to match 100 mg IKT-001 tablets",
+      "ageRangeSecondary": [
+        "7"
+      ],
+      "ageGroup": "65+ years, 18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "26",
+      "primaryEndPoint": "1. Part A: Change from baseline in PVR at Week 24, 2. Part B: Change from baseline in 6MWD at Week 24",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-521983-36-00",
+      "ctStatus": 2,
+      "ctTitle": "A Phase 2 Study of [68Ga]BED003 for PET Imaging of Fibroblast Activation Protein in Selected Oncology Indications",
+      "shortTitle": "BED-FAP-201",
+      "conditions": "Colorectal cancer (CRC), gastric cancer (GC), pancreatic ductal adenocarcinoma (PDAC), invasive lobular breast cancer (ILC), and epithelial ovarian cancer (EOC).",
+      "trialCountries": [
+        "Netherlands:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "NL: 28/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Neoplasms [C04]"
+      ],
+      "sponsor": "Blue Earth Diagnostics Ireland Limited",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic exploratory (Phase II)",
+      "endPoint": "1. Sensitivity, specificity, positive predictive value, and negative predictive value with [ 68Ga]BED003 PET/CT compared to composite SOT (region and participant level)., 2. Standardised uptake values and tumour-to-background ratios., 3. Adverse events and serious adverse events., 4. Comparison of tumour-to-background ratios and reader assessments of diagnostic quality at 30 and 60 minutes post-[ 68Ga]BED003 injection., 5. Reader assessments of diagnostic quality based on simulated reduced count data.",
+      "product": "[68Ga]BED003 injection",
+      "ageRangeSecondary": [
+        "7"
+      ],
+      "ageGroup": "18-64 years, 65+ years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "27",
+      "primaryEndPoint": "Co-primary endpoints of sensitivity and specificity of [68Ga]BED003 PET/CT compared to composite  standard of truth (SOT; region level: peritoneum).",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "28/04/2026",
+      "lastPublicationUpdate": "29/04/2026"
+    },
+    {
+      "ctNumber": "2025-521045-24-00",
+      "ctStatus": 2,
+      "ctTitle": "CIRCULATE III - Tailoring the decision for adjuvant chemotherapy using circulating tumour DNA, in patients with stage III colorectal cancer",
+      "shortTitle": "UC-GIG-2410",
+      "conditions": "Stage III colorectal cancer",
+      "trialCountries": [
+        "Sweden:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "SE: 28/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Neoplasms [C04]"
+      ],
+      "sponsor": "Unicancer",
+      "sponsorType": "Hospital/Clinic/Other health care facility",
+      "trialPhase": "Therapeutic confirmatory  (Phase III)",
+      "endPoint": "Efficacy endpoints :Disease Free Survival will be defined as time from randomization to first event. Patients alive without event will be censored at the date of the last follow. Overall Survival defined as the time from the date of randomization to the date of documented death from any cause. Patients alive at the end of the study will be censored at the date of the last contact. Time to Recurrence is defined as the time from the date of randomization to the date of first recurrence, Safety endpoints :Safety of treatments (NCI-CTCAE version 6.0) will be determined through the incidence of adverse events (AEs), treatment related adverse events (TRAEs), serious adverse Events (SAE), and death.  For ctDNA-negative cohort: Rate of neurotoxicity in each arm in de-escalation cohort (CAPOX vs CAPE), along with comparison between two arms of severity and duration of such neurotoxicity during treatment and at 1 year after treatment., Exploratory endpoints : Quality of life. Identify prognostication of stage III CRC by testing the added value of ctDNA on classical histoprognostic factors. Value of biological factors will be described by absolute or relative variation from baseline. To assess their prognostic or predictive values of DFS/OS, baseline values of these biomarkers will be tested using Cox reg model. For ctDNA-negative: Rate of ctDNA positivation. For ctDNA-positive: Rate of ctDNA negativation, Ancillary studies endpoints: To evaluate several ctDNA detection technics (methylation, sequencing…). To assess the incremental prognostic value contributed by various tumor molecular signatures relative to ctDNA status.",
+      "product": "Capecitabine Accord 150 mg film-coated tablets, Fluorouracil 25 mg/ml Solution for Injection or Infusion, Irinotecan Accord 20 mg/ml Solution à diluer pour perfusion, OXALIPLATINE ARROW LAB 5 mg/mL, solution à diluer pour perfusion, Leucovorin-Teva 10 mg/ml Concentrate for Solution for Infusion",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years, 65+ years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "240",
+      "primaryEndPoint": "The 3-year Disease-Free Survival (DFS) rate; DFS will be defined as time from randomization to first event (i.e, either a first recurrence local or metastatic (radiological or clinical), second colorectal cancer, or death from any cause). Patients alive without event will be censored at the date of the last follow-up (12). The 3-year DFS rate will be estimated using Kaplan Meier method.",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "28/04/2026",
+      "lastPublicationUpdate": "29/04/2026"
+    },
+    {
+      "ctNumber": "2025-524160-38-00",
+      "ctStatus": 2,
+      "ctTitle": "A Multicenter, Open-label, Phase 3 Extension Study to Evaluate the Long‑term Efficacy and Safety in Participants Who Are Currently on Treatment in a Belzutifan Study (LITESPARK-043)",
+      "shortTitle": "MK-6482-043",
+      "conditions": "Renal Cell Carcinoma, hepatocellular carcinoma, nonMSI-H/dMMR colorectal cancer, pancreatic ductal adenocarcinoma, biliary tract cancer, non-MSIH/dMMR endometrial cancer, esophageal squamous cell carcinoma, Advanced Pheochromocytoma/Paraganglioma, Pancreatic Neuroendocrine Tumor,  von Hippel-Lindau (VHL)Disease-Associated Tumors,  Advanced Gastrointestinal Stromal Tumor, Advanced Solid Tumors With HIF-2α related Genetic Alterations",
+      "trialCountries": [
+        "Czechia:2",
+        "Spain:2",
+        "Belgium:2",
+        "Netherlands:2",
+        "Denmark:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "BE: 28/04/2026, CZ: 29/04/2026, DK: 28/04/2026, ES: 28/04/2026, NL: 29/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Neoplasms [C04]"
+      ],
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic confirmatory  (Phase III)",
+      "endPoint": "Number of Participants Who Experience One or More Adverse Events (AEs), Number of Participants Who Discontinue Study Treatment Due to AEs",
+      "product": "Belzutifan, Lenvatinib, Lenvatinib",
+      "ageRangeSecondary": [
+        "7",
+        "8"
+      ],
+      "ageGroup": "65+ years, 18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "25",
+      "primaryEndPoint": "Overall survival (OS)",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-520842-31-00",
+      "ctStatus": 2,
+      "ctTitle": "ANTIPROM - Comparison of two prophylactic antibiotic regimens in case of preterm prelabor rupture of membranes before 34 weeks of gestation: a randomized controlled trial",
+      "shortTitle": "APHP230841",
+      "conditions": "Population of study participants\tPregnant women with PPROM at 22 to 33 weeks’ gestation",
+      "trialCountries": [
+        "France:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "FR: 28/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+      ],
+      "sponsor": "Assistance Publique Hopitaux De Paris",
+      "sponsorType": "Hospital/Clinic/Other health care facility",
+      "trialPhase": "Therapeutic confirmatory  (Phase III)",
+      "endPoint": "Pregnancy duration, Maternal infectious morbidity, Neonatal mild or moderate morbidity: 1. Prevalence of maternal or neonatal colonization/infection with ESBL- or 3rd generation cephalosporin-resistant- enterobacteria ; 2. Psycho-motor development at the age of 2 years by parental auto-questionnaire",
+      "product": "CEFTRIAXONE, AMOXICILLIN, AZITHROMYCIN",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "1008",
+      "primaryEndPoint": "Composite outcome including foetal death and/or neonatal death AND/OR neonatal severe morbidity (defined by ≥ 1 of the following: mechanical ventilation 48hrs, severe bronchopulmonary dysplasia, severe intraventricular haemorrhage, white matter injury, neonatal early-onset sepsis, neonatal late-onset sepsis, necrotizing enterocolitis, retinopathy of prematurity).",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "28/04/2026",
+      "lastPublicationUpdate": "29/04/2026"
+    },
+    {
+      "ctNumber": "2025-521154-42-00",
+      "ctStatus": 2,
+      "ctTitle": "Phase 2a, Multicenter, Randomized, Double-blind, Placebo-controlled Study to Assess the Safety of Anumigilimab (CSL324) in Adults with Sickle Cell Disease",
+      "shortTitle": "CSL324_2002",
+      "conditions": "Sickle Cell Disease",
+      "trialCountries": [
+        "Belgium:2",
+        "Netherlands:2",
+        "France:2",
+        "Italy:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "NL: 29/04/2026, FR: 28/04/2026, BE: 28/04/2026, IT: 29/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Hemic and Lymphatic Diseases [C15]"
+      ],
+      "sponsor": "CSL Behring LLC",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic exploratory (Phase II)",
+      "endPoint": "From the first dose of anumigilimab through Week 65: • Serum anumigilimab, During the 52-week Maintenance Period: • Annualized rate of Vaso-occlusive crisis (VOC) (medical facility)",
+      "product": "Anumigilimab, Saline 0.9%",
+      "ageRangeSecondary": [
+        "8",
+        "7"
+      ],
+      "ageGroup": "65+ years, 18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "12",
+      "primaryEndPoint": "Number and percentage of subjects with Treatment Emergent Adverse Events (TEAEs), overall and by severity, seriousness and relationship to Investigational Product (IP), Number and percentage of subjects with Adverse Events of Special Interest (AESIs), Clinically relevant changes from baseline in laboratory assessments and vital signs",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-524498-17-00",
+      "ctStatus": 2,
+      "ctTitle": "A two-part, seamless, multicenter, RANDOMIZED, open-label, ADAPTIVE Phase ii/III STUDY OF THE BLOOD-BRAIN barrier PENETRANT RO7771950 versus Tucatinib, both in combination with trastuzumab and capecitabine, in patients with Pretreated unresectable locally advanced or metastatic HER2-positive breast cancer, with or without central nervous system metastases",
+      "shortTitle": "WO46069",
+      "conditions": "Pretreated Unresectable Locally Advanced or Metastatic human epidermal growth factor receptor 2 (HER2)-Positive Breast Cancer, with or without Central Nervous System (CNS) Metastases",
+      "trialCountries": [
+        "Belgium:2",
+        "Italy:2",
+        "Czechia:2",
+        "Germany:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "BE: 28/04/2026, CZ: 29/04/2026, DE: 29/04/2026, IT: 29/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Neoplasms [C04]"
+      ],
+      "sponsor": "F. Hoffmann-La Roche AG",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Phase II and Phase III (Integrated)",
+      "endPoint": "Progression-Free Survival in participants with CNS metastases (PFS-CNS), Overall Survival in Full Analysis Set (OS-FAS), Objective Response Rate (ORR), Duration Of Response (DOR), Clinical Benefit Rate (CBR), Objective Response Rate in participants with CNS metastases (ORR-CNS), Duration Of Response in participants with CNS metastases (DOR-CNS), Clinical Benefit Rate in participants with CNS metastases (CBR-CNS), Mean and mean changes from baseline score in symptoms experienced by participants with brain tumors, as measured by the European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire - Brain Neoplasm module (EORTC QLQ-BN20), Mean and mean changes from baseline score in function (role, physical, cognitive, social, emotional) and HRQoL by cycle and between treatment arms as measured by the EORTC QLQ-C30, Incidence and severity of adverse events, with severity determined according to National Cancer Institute Common Terminology Criteria for Adverse Events Version 5.0 (NCI CTCAE v5.0), Change from baseline in selected clinical laboratory test results, vital signs, echocardiogram/multiple-gated acquisition (ECHO/MUGA), Electrocardiogram (ECG), and Columbia Suicide Severity Rating Scale (C-SSRS), Presence, frequency of occurrence, severity, and/or degree of interference with daily activities of symptomatic treatment toxicities (i.e., PPE, mouth/throat sores, nausea, vomiting, diarrhea, headache, rash, abdominal pain, decreased appetite, fatigue) as assessed through use of the patient-reported outcome - Common Terminology Criteria for Adverse Events (PRO-CTCAE), Proportion of participants reporting each response option at each assessment timepoint by treatment arm for treatment side-effect bother single-item Functional Assessment of Cancer Therapy (FACT-GP5), Change from baseline/worsening in symptomatic treatment toxicities (PRO-CTCAE) and treatment side-effect bother FACT-GP5, Health utility scores of the European Quality of Life 5 Dimensions 5 Level Version (EQ-5D-5L), Plasma concentration of RO7771950 and its metabolite(s) at specified timepoints",
+      "product": "TRASTUZUMAB, TRASTUZUMAB, TUCATINIB, RO7771950, CAPECITABINE, RO7771950, CAPECITABINE, TUCATINIB",
+      "ageRangeSecondary": [
+        "8",
+        "7"
+      ],
+      "ageGroup": "18-64 years, 65+ years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "107",
+      "primaryEndPoint": "Progression-Free Survival in Full Analysis Set (PFS-FAS)",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-525125-12-00",
+      "ctStatus": 2,
+      "ctTitle": "A Study to Compare the Blood Levels of Two Dosage Formulations of the Study Medicine in Healthy Adults",
+      "shortTitle": "C4951092",
+      "conditions": "Migraine with or without aura",
+      "trialCountries": [
+        "Belgium:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "BE: 28/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Nervous System Diseases [C10]"
+      ],
+      "sponsor": "Pfizer Inc.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Human Pharmacology (Phase I)- Bioequivalence Study",
+      "endPoint": "",
+      "product": "",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years, 65+ years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "36",
+      "primaryEndPoint": "",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "28/04/2026",
+      "lastPublicationUpdate": "29/04/2026"
+    },
+    {
+      "ctNumber": "2025-524373-17-00",
+      "ctStatus": 2,
+      "ctTitle": "MERCURE study: MEthotrexate in ReCurrent dVIN",
+      "shortTitle": "MERCURE524372",
+      "conditions": "dVIN caused by Lichen Sclerosus",
+      "trialCountries": [
+        "Netherlands:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "NL: 28/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Skin and Connective Tissue Diseases [C17]",
+        "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+      ],
+      "sponsor": "Amsterdam UMC Stichting",
+      "sponsorType": "Patient organisation/association",
+      "trialPhase": "Therapeutic use (Phase IV)",
+      "endPoint": "Safety and tolerability of side effects, reduction of vulvar complaints, reduction of topical corticosteroid application and patient satisfaction  with the use of MTX will be evaluated by patient reported use and documentation of side effects using a questionnaire. Severity of side effects will be evaluated according to the CTCEA version 5.0 2017., Pre-treatment and, when performed, current- or post-treatment biopsies will be identified and central blinded pathology revision will be performed. To explore microenvironment in recurrent dVIN with and without the use of MTX immunohistochemistry staining, including p53 will be performed.",
+      "product": "Methotrexaat Sandoz 2,5 mg, tabletten",
+      "ageRangeSecondary": [
+        "7",
+        "8"
+      ],
+      "ageGroup": "65+ years, 18-64 years",
+      "gender": "Female",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "30",
+      "primaryEndPoint": "To assess effectiveness of MTX in prevention of recurrence in dVIN, recurrence rates with or without MTX will be compared within this prospective self-controlled pilot study, as each patient functions as its own control., Time-to recurrence of dVIN in women with lichen sclerosus and recurrent dVIN lesions with- and without the use of MTX will also be assessed by determination of clinical responses at 1-3-6-9-12-15-18 months and will be identified as stable disease (SD) or progressive disease (PD).",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "28/04/2026",
+      "lastPublicationUpdate": "29/04/2026"
+    },
+    {
+      "ctNumber": "2025-521967-11-00",
+      "ctStatus": 2,
+      "ctTitle": "Electrophysiological analysis of Gamma-Hydroxybutyrate-induced sleep in intensive care patients: A Pilot Double-Blind Randomized Controlled Trial.(GAMMA-SLEEP)",
+      "shortTitle": "APHP241595",
+      "conditions": "The study population includes adult ICU patients with a hospitalization of more than 48 hours. We have chosen to include patients with or without mechanical ventilation, as sleep disorders affect all ICU patients after 48 hours.",
+      "trialCountries": [
+        "France:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "FR: 28/04/2026",
+      "therapeuticAreas": [
+        "Psychiatry and Psychology [F] - Mental Disorders [F03]"
+      ],
+      "sponsor": "Assistance Publique Hopitaux De Paris",
+      "sponsorType": "Hospital/Clinic/Other health care facility",
+      "trialPhase": "Therapeutic exploratory (Phase II)",
+      "endPoint": "1) Quantity and quality of nocturnal sleep. •Sleep onset latency  •\tTotal sleep time •Duration and percentage of N1 stage (sleep onset).  •\tDuration and percentage of N2 stage (light slow-wave sleep). •\tPercentage of N3 stage (deep slow-wave sleep).  •\tDuration and percentage of Rapid Eye Movement sleep (REM).  •\tQuantification of intra-sleep wakefulness.  •\tQuantification of atypical sleep.  •Quantification of pathological wakefulness  •Quantification of micro-awakenings. •\tSleep efficiency, Quality of daytime alertness: •\tDaytime vigilance score (Karolinska Sleepiness scale) •\tAverage sleep latency during the Maintenance of Wakefulness Test (MWT) the morning after the study night, Analgesic consumption and participation in rehabilitation: •Morphine equivalent quantification •Assessment of rehabilitation participation, Evaluation of adverse events, particularly hypokalemia, hypernatremia, mental confusion, agitation, arterial hypertension, or bradycardia",
+      "product": "NaCl 0.9%, GAMMA-OH 200 mg/ml, solution injectable (IV)",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "65+ years, 18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "24",
+      "primaryEndPoint": "The primary endpoint is the duration (in minutes) of deep slow-wave sleep (N3 stage) based on polysomnographic recordings",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "28/04/2026",
+      "lastPublicationUpdate": "29/04/2026"
+    },
+    {
+      "ctNumber": "2025-522750-39-00",
+      "ctStatus": 2,
+      "ctTitle": "A randomized, phase 3, double-blind, double-dummy, active comparator-controlled multicenter clinical trial to evaluate the efficacy and safety of linaprazan glurate compared to lansoprazole in maintenance of healing in participants with healed erosive esophagitis (EE) due to gastroesophageal reflux disease (GERD) of Los Angeles (LA) grades A to D",
+      "shortTitle": "CX842A2303",
+      "conditions": "Erosive esophagitis (EE) due to gastroesophageal reflux disease (GERD)",
+      "trialCountries": [
+        "Germany:2",
+        "Czechia:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "CZ: 28/04/2026, DE: 29/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Digestive System Diseases [C06]"
+      ],
+      "sponsor": "Cinclus Pharma Holding AB (publ)",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic confirmatory  (Phase III)",
+      "endPoint": "1. Maintained healing of EE after 24 weeks as assessed by central reading of endoscopy, 2. Maintained healing from EE as assessed by central reading of endoscopy after 24 weeks in participants with Baseline EE due to GERD of LA grades C/D., 3. Percentage of heartburn-free days from Baseline to Week 24 based on electronic Diary, 4. Maintained healing of EE comparing linaprazan glurate ‘high dose’ with lansoprazole after 52 weeks as assessed by central reading of endoscopy., 5. Maintained healing of EE comparing linaprazan glurate ‘low dose’ with lansoprazole after 52 weeks as assessed by central reading of endoscopy",
+      "product": "LANSOPRAZOLE, LANSOPRAZOLE, Placebo to match lansoprazole high dose, Linaprazan glurate, Placebo to match Lansoprazole low dose, Placebo to match Linaprazan Glurate",
+      "ageRangeSecondary": [
+        "7"
+      ],
+      "ageGroup": "18-64 years, 65+ years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "12",
+      "primaryEndPoint": "1.Maintained healing of EE after 24 weeks as assessed by central reading of endoscopy.",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2024-510873-11-00",
+      "ctStatus": 2,
+      "ctTitle": "A phase II, double-blinded, placebo-controlled, clinical trial to determine the efficacy and safety of AP707 in the treatment of Borderline Personality Disorder.",
+      "shortTitle": "Illuminate",
+      "conditions": "Borderline personality disorder",
+      "trialCountries": [
+        "Germany:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "DE: 28/04/2026",
+      "therapeuticAreas": [
+        "Psychiatry and Psychology [F] - Mental Disorders [F03]"
+      ],
+      "sponsor": "Apurano Pharmaceuticals GmbH",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic exploratory (Phase II)",
+      "endPoint": "1. a) Proportion of ZAN-BPD responders (i.e., participants with ≥30% ZAN-BPD total score reduction at EoT compared to baseline) (verum compared to pla-cebo), 1. b)\tProportion of ZAN-BPD responders (i.e., participants with ≥50% ZAN-BPD total score reduction at EoT compared to baseline) (verum compared to pla-cebo), 1. c)\tTime to first response of participants who experienced ≥30% ZAN-BPD total score reduction at EoT compared to baseline (verum com-pared to placebo), 1. d)\tTime to first response of participants who experienced ≥50% ZAN-BPD total score reduction at EoT compared to baseline (verum com-pared to placebo), 2. a)\tProportion of BSL-23 responders (i.e., participants with ≥30% BSL-23 total score reduction at EoT compared to baseline) (verum compared to pla-cebo), 2. b)\tProportion of BSL-23 responders (i.e., participants with ≥50% BSL-23 total score reduction at EoT compared to baseline) (verum compared to placebo), 2. c)\tTime to first response of participants who experienced ≥30% BSL-23 total score reduction at EoT compared to baseline (verum compared to pla-cebo), 2. d) Time to first response of participants who experienced ≥50% BSL-23 total score reduction at EoT compared to baseline (verum compared to placebo), 3. Baseline adjusted difference (verum compared to placebo) in (mean) change from baseline in CGI-S score at EoT (additionally: at V2, V3, …, V9), 4. Proportion of participants per PGI-C score at EoT, 5. a)\tBaseline adjusted difference (verum compared to placebo) in (mean) change from baseline in STAXI-2 (Trait-Anger) t-value at EoT, 5. b)\tBaseline adjusted difference (verum compared to placebo) in (mean) change from baseline in STAXI-2 (Anger Expression-Out) t-value at EoT, 5. c)\tBaseline adjusted difference (verum compared to placebo) in (mean) change from baseline in STAXI-2 (Anger Expression-In) t-value at EoT, 5. d)\tBaseline adjusted difference (verum compared to placebo) in (mean) change from baseline in STAXI-2 (Anger Control) t-value at EoT, 6. Baseline adjusted difference (verum compared to placebo) in (mean) change from baseline in DERS-36 total score at EoT, 7. a)\tBaseline adjusted difference (verum compared to placebo) in (mean) change from baseline in Patient Health Questionnaire (PHQ-9) total score at EoT, 7. b)\tBaseline adjusted difference (verum compared to placebo) in (mean) change from baseline in Montgomery-Åsberg Depression Rat-ing Scale (MADRS) total score at EoT, 8. a)\tBaseline adjusted difference (verum compared to placebo) in (mean) change from baseline in STAI (State-Anxiety) score at EoT, 8. b)\tBaseline adjusted difference (verum compared to placebo) in (mean) change from baseline in STAI (Trait-Anxiety) score at EoT, 9. a)\tBaseline adjusted difference (verum compared to placebo) in (mean) change from baseline in Barratt Impulsiveness Scale 15 (BIS-15) total score at EoT, 9. b)\tBaseline adjusted difference (verum compared to placebo) in (mean) change from baseline in impulsive sector score of ZAN-BPD at EoT, 10. Baseline adjusted difference (verum compared to placebo) in (mean) change from baseline in interpersonal sector score of ZAN-BPD at EoT, 11. Baseline adjusted difference (verum compared to placebo) in (mean) change from baseline in cognitive sector score of ZAN-BPD at EoT, 12. Baseline adjusted difference (verum compared to placebo) in (mean) change from baseline in affective sector score of ZAN-BPD at EoT, 13. Baseline adjusted difference (verum compared to placebo) in (mean) change from baseline in NRS-Pain score at EoT, 14. Number of participants with rescue medication over the course of the clinical trial and within periods: until Visit ≤ V2 (1 week), ≤ V3 (2 weeks), ≤ V4 (3 weeks), ≤ V5 (5 weeks), ≤ V6 (7 weeks), ≤ V7 (9 weeks), ≤ V8 (11 weeks), ≤ V9 (13 weeks), ≤ EoT (15 weeks), ≤ FU (18 weeks)",
+      "product": "AP707, Placebo",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "154",
+      "primaryEndPoint": "(i) Baseline adjusted difference (verum compared to placebo) in (mean) change from baseline in ZAN-BPD total score at EoT;, (ii) Baseline adjusted difference (verum compared to placebo) in (mean) change from baseline in BSL-23 total score at EoT.",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "28/04/2026",
+      "lastPublicationUpdate": "29/04/2026"
+    },
+    {
+      "ctNumber": "2023-503573-38-00",
+      "ctStatus": 2,
+      "ctTitle": "Safety of stem cells in treatmemt of retinal diseases.",
+      "shortTitle": "RD-opMSCs-01",
+      "conditions": "Retinal degenerative diseases",
+      "trialCountries": [
+        "Czechia:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "CZ: 28/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Eye Diseases [C11]"
+      ],
+      "sponsor": "Bioinova a.s.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Human Pharmacology (Phase I)-  Other",
+      "endPoint": "",
+      "product": "",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "10",
+      "primaryEndPoint": "",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "28/04/2026",
+      "lastPublicationUpdate": "29/04/2026"
+    },
+    {
+      "ctNumber": "2025-522957-20-00",
+      "ctStatus": 2,
+      "ctTitle": "A Phase 3, Randomized, Double-Blind, 48-Week Placebo-Controlled Study to Assess the Efficacy, Safety, and Tolerability of DYNE-101 Administered to Participants with Myotonic Dystrophy Type 1",
+      "shortTitle": "DYNE101-DM1-301",
+      "conditions": "Myotonic Dystrophy Type 1",
+      "trialCountries": [
+        "Netherlands:2",
+        "Denmark:2",
+        "Germany:2",
+        "Belgium:2",
+        "France:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "BE: 28/04/2026, FR: 28/04/2026, NL: 28/04/2026, DK: 28/04/2026, DE: 29/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Musculoskeletal Diseases [C05]",
+        "Diseases [C] - Nervous System Diseases [C10]"
+      ],
+      "sponsor": "Dyne Therapeutics Inc.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic confirmatory  (Phase III)",
+      "endPoint": "Change from baseline at Week 49 in:  vHOT; middle finger QMT total CGI-C 10-MWRT velocity (m/s) PGI-C DM1-ACTIVC total score MDHI total PGI-S CGI-S 9-HPT MDHI subscale, Maximum observed drug concentration (Cmax) Time to maximum concentration (tmax) Area under the concentration-time curve (AUC) from hour 0 to the last measurable concentration (AUCtlast) AUC extrapolated to infinity (AUC∞) Apparent terminal elimination rate constant (λZ) Apparent terminal elimination half-life (t½) Plasma clearance (CL) Volume of distribution at the terminal phase (Vz), if appropriate Volume of distribution at steady state (Vss), if appropriate, Incidence of anti-drug antibodies (ADAs), * Treatment-emergent adverse events (TEAEs) including:  - Treatment-emergent serious adverse events (SAEs) - TEAEs considered related to study drug - TEAEs leading to discontinuation from study drug and discontinuation from the study * Other clinically significant safety and tolerability observations including: - Vital sign findings - 12-lead electrocardiogram (ECG) findings -Clinical laboratory values *C-SSRS results",
+      "product": "SODIUM CHLORIDE\r, DYNE-101",
+      "ageRangeSecondary": [
+        "6"
+      ],
+      "ageGroup": "18-64 years, 0-17 years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "51",
+      "primaryEndPoint": "5×STS time, change from baseline at Week 49",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2023-509176-42-00",
+      "ctStatus": 2,
+      "ctTitle": "Efficacy, safety and pharmacokinetics of cagrilintide s.c. 2.4 mg as monotherapy\nand in combination with semaglutide s.c. 2.4 mg (CagriSema) once weekly for weight management\nin children and adolescents with overweight or obesity",
+      "shortTitle": "NN9838-4968",
+      "conditions": "Obesity and T2D",
+      "trialCountries": [
+        "Slovakia:2",
+        "Italy:2",
+        "Denmark:2",
+        "Belgium:2",
+        "Sweden:11",
+        "Netherlands:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "BE: 28/04/2026, DK: 28/04/2026, IT: 29/04/2026, SE: 29/04/2026, NL: 29/04/2026, SK: 29/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Nutritional and Metabolic Diseases [C18]"
+      ],
+      "sponsor": "Novo Nordisk A/S",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Phase III and phase IV (Integrated)",
+      "endPoint": "Relative change in body weight. Baseline (week 0) to end of treatment (week 68). Unit: %., Change in BMI Standard Deviation Score (SDS). Baseline (week 0) to end of treatment (week 68). Unit: SDS score, Relative change in BMI. Baseline (week 0) to end of treatment (week 68). Unit: %., Relative change in body weight. Baseline (week 0) to end of treatment (week 68). Unit: %., Change in BMI Standard Deviation Score (SDS). Baseline (week 0) to end of treatment (week 68). Unit: SDS score., Reduction in weight category. Baseline (week 0) to end of treatment (week 68). Unit: count of participant., Reduction in weight category. Baseline (week 0) to end of treatment (week 68). Unit: count of participant.",
+      "product": "cagrilintide, Placebo + Placebo, semaglutide, cagrilintide, cagrilintide semaglutide, semaglutide, semaglutide, semaglutide, cagrilintide semaglutide, semaglutide, cagrilintide semaglutide, cagrilintide semaglutide, cagrilintide semaglutide, cagrilintide, cagrilintide",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "0-17 years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "61",
+      "primaryEndPoint": "Relative change in body mass index (BMI). Baseline (week 0) to end of treatment (week 68). Unit: %.",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-524386-24-00",
+      "ctStatus": 2,
+      "ctTitle": "A randomized, open-label, Phase III trial to assess the efficacy and safety of BupiZenge compared to lidocaine for pain associated with oral mucositis in head and neck cancer",
+      "shortTitle": "BZ003",
+      "conditions": "Head and neck cancer, Oral mucositis",
+      "trialCountries": [
+        "Germany:2",
+        "Denmark:2",
+        "Norway:2",
+        "Sweden:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "DK: 28/04/2026, DE: 29/04/2026, SE: 28/04/2026, NO: 28/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Neoplasms [C04]",
+        "Analytical, Diagnostic and Therapeutic Techniques and Equipment [E] - Anesthesia and Analgesia [E03]"
+      ],
+      "sponsor": "OncoZenge AB",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic confirmatory  (Phase III)",
+      "endPoint": "Total pain reduction from baseline, expressed as AUC of patient-reported oral cavity pain intensity from pre-dose to 3 hours post-dose, measured by the NRS (patient-reported at site) at day 1 and at each of week 1 to 3 of treatment with BupiZenge/lidocaine comparing BupiZenge with lidocaine., Proportion of responders defined as a 30% reduction in pain NRS AUC0-3h compared to baseline at the last day of radiotherapy and at each of weeks 1 to 3, comparing BupiZenge with lidocaine., Change from pre-dose (on same day) in oral cavity pain intensity at 15 minutes post-dose (NRS; patient-reported at home), comparing BupiZenge with viscous lidocaine at the week preceding end of radiotherapy and at each of week 1 to week 3 after radiotherapy (including only data when participants on concomitant radiotherapy) (weekly means)., Change from pre-dose (on same day) in oral cavity pain intensity at 60 minutes post-dose (NRS; patient-reported at home), comparing BupiZenge with viscous lidocaine at the week preceding end of radiotherapy and at each of week 1 to week 3 after radiotherapy (including only data when participants on concomitant radiotherapy) (weekly means)., Change from pre-dose (day 1) in oral cavity pain intensity to pre-dose (NRS; patient-reported at home), comparing BupiZenge with viscous lidocaine at the week preceding end of radiotherapy and at each of week 1 to week 3 after radiotherapy (including only data when participants on concomitant radiotherapy) (weekly means), Safety: Frequency and severity of AEs and SAEs as per common terminology criteria for AEs (CTCAE) v6, including changes from baseline in safety laboratory values, body weight, and vital signs, Tolerability: Incidence of dose modifications due to AEs/SAEs, Local tolerability in the oral cavity as per visual inspection by the investigator, Oral consumption of opioids during the treatment period with concomitant BupiZenge/lidocaine treatment and radiotherapy quantified as oral morphine milligram equivalents (MME) per day comparing BupiZenge with lidocaine., Time (days) to initiation of opioid medication during concomitant radiotherapy counted from day of randomization, comparing BupiZenge with lidocaine, Change from baseline to last day of radiotherapy in mOMDQ Total Score, comparing BupiZenge with lidocaine, Change from baseline to last day of radiotherapy in RAND SF-36 Physical Component Summary (PCS) score, comparing BupiZenge with lidocaine, Proportion of participants who progress from WHO Grade 2 to Grade 3 or higher during the treatment period with concomitant radiotherapy, comparing BupiZenge with lidocaine, PK parameters in plasma including but not limited to; time vs concentration profiles, AUC0-3h, Cmax, and Tmax, HRUQ Total Score assessed at 30 days post-treatment, WPAI Total Score assessed as change from baseline to 30 days post-treatment",
+      "product": "BupiZenge, Lidocaine",
+      "ageRangeSecondary": [
+        "7"
+      ],
+      "ageGroup": "65+ years, 18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "150",
+      "primaryEndPoint": "Total pain reduction from baseline expressed as area under the curve (AUC) of patient-reported oral cavity pain intensity from pre-dose to 3 hours post-dose, measured by the NRS (patient-reported at site) at the last day of radiotherapy, comparing BupiZenge with lidocaine.",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2023-508047-40-00",
+      "ctStatus": 2,
+      "ctTitle": "A Phase 3, Randomized, Open-label, Multicenter Study of Sacituzumab Tirumotecan (sac-TMT, MK-2870) Maintenance Treatment With or Without Bevacizumab Versus Standard of Care in Participants With Newly Diagnosed Advanced HRD-Negative Ovarian Cancer Following First-line Platinum-based Chemotherapy (TroFuse-021/ENGOTov85/ GOG-3102)",
+      "shortTitle": "MK-2870-021",
+      "conditions": "Ovarian cancer",
+      "trialCountries": [
+        "Norway:2",
+        "Spain:2",
+        "Greece:2",
+        "France:2",
+        "Denmark:2",
+        "Belgium:2",
+        "Czechia:2",
+        "Finland:2",
+        "Germany:2",
+        "Italy:2",
+        "Sweden:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "BE: 29/04/2026, CZ: 28/04/2026, DK: 28/04/2026, FI: 28/04/2026, FR: 28/04/2026, DE: 29/04/2026, GR: 29/04/2026, IT: 29/04/2026, ES: 28/04/2026, SE: 28/04/2026, NO: 28/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Neoplasms [C04]"
+      ],
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic confirmatory  (Phase III)",
+      "endPoint": "Overall Survival (OS), Second Progression-Free Survival (PFS2), Number of Participants Who Experience an Adverse Event (AE), Number of Participants Who Discontinue Study Treatment Due to an AE, Change From Baseline in Global Health Status/Quality of Life (GHS/QoL) Combined Score (Items 29 and 30) Using the European Organisation for Research and Treatment of Cancer QoL Questionnaire-Core 30 (EORTC QLQ-C30), Change From Baseline in Physical Functioning Combined Score (Items 1 to 5) Using EORTC QLQ-C30, Change From Baseline in Role Functioning Combined Score (Items 6 and 7) Using EORTC QLQ-C30, Change From Baseline in Abdominal/Gastrointestinal (GI) Symptoms Combined Score (Items 31 to 36) Using the EORTC QLQ-Ovarian Cancer Module 28 (OV28)",
+      "product": "MK-2870, Avastin 25 mg/ml concentrate for solution for infusion., Avastin 25 mg/ml concentrate for solution for infusion., -, MVASI 25 mg/mL concentrate for solution for infusion, MVASI 25 mg/mL concentrate for solution for infusion",
+      "ageRangeSecondary": [
+        "7",
+        "8"
+      ],
+      "ageGroup": "65+ years, 18-64 years",
+      "gender": "Female",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "283",
+      "primaryEndPoint": "Progression-Free Survival (PFS)",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-522552-20-00",
+      "ctStatus": 2,
+      "ctTitle": "Multicenter, Randomized, Double-blind, Placebo-controlled Trial of Clemizole HCl as Adjunctive Therapy in Patients with Lennox-Gastaut Syndrome",
+      "shortTitle": "EPX-100-003",
+      "conditions": "Lennox-Gastaut Syndrome",
+      "trialCountries": [
+        "Italy:2",
+        "Spain:2",
+        "Czechia:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "ES: 29/04/2026, IT: 28/04/2026, CZ: 29/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Nervous System Diseases [C10]"
+      ],
+      "sponsor": "Epygenix Therapeutics Inc.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic confirmatory  (Phase III)",
+      "endPoint": "Proportion of participants with ≥50% reduction in CMMS-28 from the Baseline Period through the end of the DB Period (Titration plus Maintenance Phase), Percent change in CMMS-28 seizure-free days from the Baseline Period through the end of the DB Period (Titration plus Maintenance Phase), CGI-C score at the end of the DB Period (Titration plus Maintenance Phase), CaGI-C score at the end of the DB Period (Titration plus Maintenance Phase), CaGI-CSID score at the end of the DB Period (Titration plus Maintenance Phase), Change in QI-disability score from Baseline to the end of the DB Period (Titration plus Maintenance Phase), Percent change per 28 days in the number of seizure-free days (based on all seizure types) from the Baseline Period through the end of the DB Period (Titration plus Maintenance Phase), Percent change in CMMS-28 from the Baseline Period through the end of the DB Maintenance Phase only, Proportion of participants with ≥50% reduction in CMMS-28 from the Baseline Period through the end of the DB Maintenance Phase only, Incidence of TEAEs",
+      "product": "Clemizole Hydrochloride placebo",
+      "ageRangeSecondary": [
+        "5",
+        "4",
+        "6"
+      ],
+      "ageGroup": "0-17 years, 18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "62",
+      "primaryEndPoint": "Percent change in CMMS-28 from the Baseline Period through the end of the DB Period (Titration plus Maintenance Phase)",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2024-517388-22-00",
+      "ctStatus": 2,
+      "ctTitle": "Phase 2/3, Double-blind, Placebo-controlled Study to Evaluate the Safety and Efficacy of EXV-802 and EXV-801 in the Treatment of Agitation in Participants with Alzheimer’s Disease Dementia",
+      "shortTitle": "EXV802-2-1",
+      "conditions": "Agitation in Alzheimer's Disease Dementia",
+      "trialCountries": [
+        "Italy:2",
+        "Slovakia:2",
+        "Czechia:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "CZ: 28/04/2026, SK: 29/04/2026, IT: 28/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Nervous System Diseases [C10]"
+      ],
+      "sponsor": "Exciva GmbH",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Phase II and Phase III (Integrated)",
+      "endPoint": "EXV-802: Difference between active and placebo as measured by changes from baseline to endpoint (Week 6) in the Clinical Global Impression of Severity of Illness (CGI-S) score, as related to symptoms of agitation., EXV-802: Difference between active and placebo as measured by changes from baseline to endpoint (Week 6) in the NPI-C Caregiver Distress total score for agitation and aggression., EXV-802: Difference between active and placebo as measured by changes from baseline to endpoint (Week 6) in the NPI-C Irritability / Lability score., EXV-802: Difference between active and placebo as measured by changes from baseline to endpoint (Week 6) in the NPI-C Sleep Disorders score., EXV-802: Difference between active and placebo in frequency and severity of adverse events and clinically relevant changes in relevant safety endpoints e.g.: •\tMini‐Mental State Examination (MMSE) •\tColumbia Suicide Severity Rating Scale (C-SSRS) score  •\tClinical laboratory values •\tVital signs •\tElectrocardiograms (ECGs) •\tPhysical examination findings, EXV-801: Difference between active and placebo as measured by changes from baseline to endpoint (Week 6) in CMAI, CGI-S, NPI-C, exploratory PD markers (BDNF), and blood-based biomarkers (analysis limited to descriptive statistics, including the effect size)., EXV-801: Difference between active and placebo in frequency and severity of adverse events and clinically relevant changes in relevant safety endpoints e.g.: •\tMini‐Mental State Examination (MMSE) •\tColumbia Suicide Severity Rating Scale (C-SSRS) score  •\tClinical laboratory values •\tVital signs •\tElectrocardiograms (ECGs) •\tPhysical examination findings",
+      "product": "EXV-802, EXV-801, Matching Placebo",
+      "ageRangeSecondary": [
+        "8",
+        "7"
+      ],
+      "ageGroup": "18-64 years, 65+ years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "96",
+      "primaryEndPoint": "Difference between active and placebo as measured by changes from baseline to endpoint (Week 6) in the Cohen-Mansfield Agitation Inventory total score",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-524135-39-00",
+      "ctStatus": 2,
+      "ctTitle": "A study in healthy people or otherwise healthy but overweight or obese to compare 2 formulations of survodutide given in different ways, either as a pre-filled syringe or a pen-like injector",
+      "shortTitle": "1404-0118",
+      "conditions": "Healthy volunteer trial",
+      "trialCountries": [
+        "Germany:2"
+      ],
+      "decisionDateOverall": "28/04/2026",
+      "decisionDate": "DE: 28/04/2026",
+      "therapeuticAreas": [
+        "Not possible to specify"
+      ],
+      "sponsor": "Boehringer Ingelheim International GmbH",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Human Pharmacology (Phase I)-  Other",
+      "endPoint": "",
+      "product": "",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "56",
+      "primaryEndPoint": "",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "28/04/2026",
+      "lastPublicationUpdate": "29/04/2026"
+    },
+    {
+      "ctNumber": "2023-504135-40-00",
+      "ctStatus": 2,
+      "ctTitle": "A Phase 3, Parallel-group Treatment, Blinded, Randomized, Placebo-controlled Study to Assess the Efficacy and Safety of Pegtibatinase Administered Subcutaneously in Addition to Standard of Care in Participants with Classical Homocystinuria due to Cystathionine Beta Synthase Deficiency (HARMONY)",
+      "shortTitle": "TVTX-TVT058-301",
+      "conditions": "Classical Homocystinuria",
+      "trialCountries": [
+        "Belgium:2",
+        "Italy:2",
+        "France:2"
+      ],
+      "decisionDateOverall": "27/04/2026",
+      "decisionDate": "BE: 29/04/2026, FR: 27/04/2026, IT: 28/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Nutritional and Metabolic Diseases [C18]"
+      ],
+      "sponsor": "Travere Therapeutics Inc.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic confirmatory  (Phase III)",
+      "endPoint": "The change from baseline in plasma tHcy levels averaged post Week 12 (Weeks 16, 20, and 24) in participants receiving standard of care and treated with pegtibatinase as compared to placebo, The change from baseline in plasma Met levels averaged over Weeks 6 through 12 in participants receiving standard of care and treated with pegtibatinase as compared to placebo, The change from baseline in plasma Met levels averaged post Week 12 in participants receiving standard of care and treated with pegtibatinase as compared to placebo, The proportion of participants achieving tHcy <100 µM averaged over Weeks 6 through 12, among participants with tHcy ≥100 µM at baseline, The proportion of participants achieving tHcy <100 µM averaged post Week 12 among participants with tHcy ≥100 µM at baseline, The proportion of participants with tHcy <50 µM averaged over Weeks 6 through 12, The proportion of participants with tHcy <50 µM averaged post Week 12, The proportion of participants achieving tHcy reduction ≥35% from baseline averaged over Weeks 6 through 12, and averaged post Week 12, The proportion of participants achieving tHcy <100 µM and a ≥35% reduction from baseline averaged over Weeks 6 through 12, and averaged post Week 12 among participants with tHcy ≥100 µM at baseline, The proportion of participants with tHcy ≤15 µM averaged over Weeks 6 through 12, and averaged post Week 12",
+      "product": "0.9 % sodium chloride saline solution (NaCL), Pegtibatinase",
+      "ageRangeSecondary": [
+        "6"
+      ],
+      "ageGroup": "65+ years, 0-17 years, 18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "8",
+      "primaryEndPoint": "The change from baseline averaged over Week -3, Week -1, and Day 1 pre-dose in plasma tHcy levels averaged over Weeks 6 through 12 (6, 8, 10, and 12) in participants receiving standard of care and treated with pegtibatinase as compared to placebo",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-523804-62-00",
+      "ctStatus": 3,
+      "ctTitle": "Efficacy and safety of NNC0487-0111s.c once weekly in participants with obesity who have reached target dose during run-in period (AMAZE12).",
+      "shortTitle": "NN9490-8559",
+      "startDateEU": "28/04/2026",
+      "conditions": "Obesity",
+      "trialCountries": [
+        "Belgium:2",
+        "Germany:2",
+        "France:3",
+        "Denmark:2",
+        "Italy:2",
+        "Netherlands:2"
+      ],
+      "decisionDateOverall": "27/04/2026",
+      "decisionDate": "BE: 27/04/2026, DK: 28/04/2026, FR: 27/04/2026, DE: 29/04/2026, IT: 28/04/2026, NL: 28/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Nutritional and Metabolic Diseases [C18]"
+      ],
+      "sponsor": "Novo Nordisk A/S",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic confirmatory  (Phase III)",
+      "endPoint": "Relative change in body weight, CCI, CCI, CCI, Change in waist circumference, Change in systolic blood pressure (SBP), Change in Impact of Weight on Quality of Life-Lite Clinical Trials Version  (IWQOL-Lite-CT) Physical function score, Change in SF-36v2® Health Survey Acute (SF-36v2 Acute) Physical  functioning score, Change in body weight, Change in body mass index (BMI), CCI, Change in glycated haemoglobin (HbA1c), Change in fasting plasma glucose (FPG), Change in fasting insulin, Change in diastolic blood pressure (DBP), Change in lipids:  Total cholesterol  High-density lipoprotein (HDL) cholesterol  Low-density lipoprotein (LDL) cholesterol  Very low-density lipoprotein (VLDL) cholesterol  Non-HDL cholesterol  Triglycerides, Change in high-sensitivity C-reactive protein (hsCRP), Change in IWQOL-Lite-CT:  Physical composite score  Psychosocial composite score  Total score, CCI, Number of:  Treatment Emergent Adverse Events (TEAEs)  Treatment Emergent Serious Adverse Events (TESAEs)  TEAEs leading to permanent treatment discontinuation",
+      "product": "NNC0487-0111 B 10142, NNC0487-0111 B 10143, NNC0487-0111 B 10141, NNC0487-0111 B 10145, Placebo, NNC0487-0111 B 10146, NNC0487-0111 B 10144",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "235",
+      "primaryEndPoint": "Relative change in body weight",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2025-523495-23-00",
+      "ctStatus": 2,
+      "ctTitle": "RASolute 304: A Phase 3 Multicenter, Open-label, Randomized, 2‑Arm Study of Adjuvant Daraxonrasib Versus Standard of Care Observation Following Completion of Neoadjuvant and/or Adjuvant Chemotherapy in Patients with Resected Pancreatic Ductal Adenocarcinoma (PDAC)",
+      "shortTitle": "RMC-6236-304",
+      "conditions": "Resected Pancreatic Ductal Adenocarcinoma (PDAC)",
+      "trialCountries": [
+        "France:2",
+        "Italy:2",
+        "Germany:2"
+      ],
+      "decisionDateOverall": "27/04/2026",
+      "decisionDate": "FR: 28/04/2026, DE: 27/04/2026, IT: 28/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Digestive System Diseases [C06]"
+      ],
+      "sponsor": "Revolution Medicines Inc.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic confirmatory  (Phase III)",
+      "endPoint": "Overall survival (OS) - OS is defined as the time from randomization until death from any cause, DFS per blinded independent central review (BICR) -  DFS defined as the time from randomization until disease recurrence or death from any cause, whichever occurs first. Recurrence is per RECIST v1.1 as assessed by BICR, DFS Rate at 1 year and 2 years - DFS rate defined as percentage of patients who are disease free at 1 year and 2 years, respectively, OS rate at 1 year and 2 years - OS rate defined as percentage of patients who are alive at 1 year and 2 years, respectively., Safety and tolerability of daraxonrasib - Incidence of adverse events (AEs) and changes from baseline in vital signs, ECOG performance score, and clinical laboratory tests, Pharmacokinetics (PK) - Predose concentration of daraxonrasib",
+      "product": "DARAXONRASIB (RMC-6236), DARAXONRASIB (RMC-6236)",
+      "ageRangeSecondary": [
+        "8",
+        "7"
+      ],
+      "ageGroup": "18-64 years, 65+ years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "74",
+      "primaryEndPoint": "Disease-Free Survival (DFS) per Investigator DFS defined as the time from randomization until disease recurrence or death from any cause, whichever occurs first. Recurrence is per response evaluation criteria in solid tumors (RECIST) v1.1 as assessed by Investigator.",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "28/04/2026",
+      "lastPublicationUpdate": "29/04/2026"
+    },
+    {
+      "ctNumber": "2024-519298-21-00",
+      "ctStatus": 2,
+      "ctTitle": "A Phase 3, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Assess Efficacy and Safety of REGN7508, a Monoclonal Antibody Against FXI, for Primary Prophylaxis of Cancer-Associated Thrombosis for Participants with Solid Tumors Undergoing Cancer Treatment (ROXI-CAT-I)",
+      "shortTitle": "R7508-CAT-2392",
+      "conditions": "Cancer-Associated Thrombosis (CAT).",
+      "trialCountries": [
+        "Belgium:2",
+        "Czechia:2",
+        "Germany:2"
+      ],
+      "decisionDateOverall": "27/04/2026",
+      "decisionDate": "DE: 29/04/2026, CZ: 28/04/2026, BE: 27/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Hemic and Lymphatic Diseases [C15]",
+        "Diseases [C] - Cardiovascular Diseases [C14]"
+      ],
+      "sponsor": "Regeneron Pharmaceuticals Inc.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic confirmatory  (Phase III)",
+      "endPoint": "Time-to-first event of DVT (symptomatic or asymptomatic [proximal])., Time-to-first event of non-fatal PE (symptomatic or asymptomatic)., Time-to-first event of any ATE., Time-to-first event of thromboembolism- or ATE-related death, Occurrence of Treatment-Emergent Adverse Events (TEAEs), Severity of TEAEs, Incidence of Anti-Drug Antibody (ADA) to REGN7508, Magnitude of ADA to REGN7508",
+      "product": "",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "65+ years, 18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "97",
+      "primaryEndPoint": "Time-to-first event of centrally adjudicated VTE [Deep Vein Thrombosis (DVT), non-fatal Pulmonary Embolism (PE) or Arterial thromboembolism (ATE), or thromboembolism- or ATE-related death], Time-to-first event of centrally adjudicated International Society of Thrombosis and Hemostasis (ISTH) major bleeding or Clinically Relevant Non-Major (CRNM) bleeding",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    },
+    {
+      "ctNumber": "2024-514246-37-00",
+      "ctStatus": 2,
+      "ctTitle": "A Phase IIb, multicentre, randomised, doubleblind, placebocontrolled, three-arm parallel-group study to evaluate the efficacy, safety, and tolerability at Week 24 of 2 doses of CHF10067 (zampilimab), with an optional 24-week doubleblind, placebocontrolled extension phase in participants with idiopathic pulmonary fibrosis",
+      "shortTitle": "CLI-10067AA1-02",
+      "conditions": "Idiopathic pulmonary fibrosis (IPF)",
+      "trialCountries": [
+        "Belgium:2",
+        "Italy:2",
+        "Czechia:2",
+        "France:11",
+        "Portugal:2"
+      ],
+      "decisionDateOverall": "27/04/2026",
+      "decisionDate": "BE: 27/04/2026, FR: 27/04/2026, IT: 28/04/2026, PT: 28/04/2026, CZ: 28/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Respiratory Tract Diseases [C08]"
+      ],
+      "sponsor": "Chiesi Farmaceutici S.p.A.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic exploratory (Phase II)",
+      "endPoint": "1- Efficacy thorughout the duration of the study at Weeks 0, 6, 12, 18, 24 and 30, 2 - Week 0 through to Week 21",
+      "product": "0.9% sodium chloride aqueous solution for IV infusion",
+      "ageRangeSecondary": [
+        "8",
+        "7"
+      ],
+      "ageGroup": "18-64 years, 65+ years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "48",
+      "primaryEndPoint": "Week 24",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "28/04/2026",
+      "lastPublicationUpdate": "29/04/2026"
+    },
+    {
+      "ctNumber": "2024-511114-20-00",
+      "ctStatus": 2,
+      "ctTitle": "SEMAFORCRANIO : Multicenter, double-blind, parallel, randomized controlled trial of the efficacy of semaglutide in hypothalamic obesity secondary to craniopharyngioma in children aged 12 to 17 years",
+      "shortTitle": "49RC23_0307",
+      "conditions": "Craniopharyngioma",
+      "trialCountries": [
+        "France:2"
+      ],
+      "decisionDateOverall": "27/04/2026",
+      "decisionDate": "FR: 27/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Nervous System Diseases [C10]"
+      ],
+      "sponsor": "Centre Hospitalier Universitaire D'Angers",
+      "sponsorType": "Hospital/Clinic/Other health care facility",
+      "trialPhase": "Therapeutic confirmatory  (Phase III)",
+      "endPoint": "",
+      "product": "Semaglutide Placebo (Wegovy 2.4 mg solution for injection in pre-filled pen, Wegovy 2.4 mg solution for injection in pre-filled pen",
+      "ageRangeSecondary": [
+        "6"
+      ],
+      "ageGroup": "0-17 years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "50",
+      "primaryEndPoint": "Change in BMI (in standard deviations for age and sex according to French reference values) after 40 weeks of semaglutide treatment (dose escalation over 16 weeks followed by a maximum maintenance dose of 2.4 mg/week for 24 weeks) compared to placebo. treatment (dose escalation over 16 weeks followed by a maximum maintenance dose of 2.4 mg/week during 24 weeks) versus placebo, Evolution of BMI-DS between baseline and S80: “semaglutide from S0” arm vs “semaglutide from S40” arm.",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "27/04/2026",
+      "lastPublicationUpdate": "28/04/2026"
+    },
+    {
+      "ctNumber": "2025-521647-20-00",
+      "ctStatus": 2,
+      "ctTitle": "A research study looking into blood levels of the medicine NNC0487 0111 in the body and how well it is tolerated in people with reduced liver function and normal liver function",
+      "shortTitle": "NN9490-8156",
+      "conditions": "hepatic impairment",
+      "trialCountries": [
+        "Slovakia:2"
+      ],
+      "decisionDateOverall": "27/04/2026",
+      "decisionDate": "SK: 27/04/2026",
+      "therapeuticAreas": [
+        "Not possible to specify"
+      ],
+      "sponsor": "Novo Nordisk A/S",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Human Pharmacology (Phase I)-  Other",
+      "endPoint": "",
+      "product": "",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "35",
+      "primaryEndPoint": "",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "27/04/2026",
+      "lastPublicationUpdate": "28/04/2026"
+    },
+    {
+      "ctNumber": "2025-524103-69-00",
+      "ctStatus": 2,
+      "ctTitle": "Phase II/III randomized controlled open-label trial to evaluate the efficacy and safety of personalized tissue engineered veins in patients with chronic venous insufficiency",
+      "shortTitle": "TECVI-2",
+      "conditions": "Chronic Venous Insufficiency",
+      "trialCountries": [
+        "Spain:2"
+      ],
+      "decisionDateOverall": "27/04/2026",
+      "decisionDate": "ES: 27/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Cardiovascular Diseases [C14]"
+      ],
+      "sponsor": "VeriGraft AB",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Phase II and Phase III (Integrated)",
+      "endPoint": "Valve competency at 1, 3, 6, 12 months post-implantation vs pre-implantation (Color Duplex  Ultrasound), Change in hemodynamics / reflux time at 1, 3, 6, 12 months post-implantation vs pre-implantation  (Color Duplex Ultrasound), Relief of clinical signs and symptoms at 1, 3, 6, 12 months post-implantation vs pre-implantation  (Ankle + calf circumference, VEINES-SYM, rVCSS, CEAP/Villalta score)), Ulcer healing at 1, 3, 6, 12 months post-implantation vs pre-implantation (ulcer number, location,  area and depth), Vein disease related QoL (VEINES-QOL) and general health-related QoL (SF-36/6D) at 1, 3, 6, 12  months post-implantation vs pre-implantation, Product related and surgical procedure related adverse events (Safety)",
+      "product": "Personalized Tissue Engineered Vein",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "65+ years, 18-64 years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "60",
+      "primaryEndPoint": "Valve competency at 6 months post P-TEV implantation vs control (using Color Duplex Ultrasound  to measure reflux), rVCSS score reduction at 6 months post implantation vs control (using the rVCCS)",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "27/04/2026",
+      "lastPublicationUpdate": "28/04/2026"
+    },
+    {
+      "ctNumber": "2025-522362-78-00",
+      "ctStatus": 2,
+      "ctTitle": "A Study to Evaluate Mirikizumab Concentrations in Breast Milk Following Administration of Mirikizumab by Subcutaneous Injection in Lactating Participants Receiving Mirikizumab Therapeutically for an Approved Indication",
+      "shortTitle": "I6T-MC-AMCA",
+      "conditions": "severely active ulcerative colitis (US) and CD (Crohn’s disease)",
+      "trialCountries": [
+        "Denmark:2",
+        "Germany:2",
+        "Italy:2"
+      ],
+      "decisionDateOverall": "27/04/2026",
+      "decisionDate": "IT: 28/04/2026, DE: 27/04/2026, DK: 27/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Immune System Diseases [C20]"
+      ],
+      "sponsor": "Eli Lilly & Co.",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic use (Phase IV)",
+      "endPoint": "AUC(0-τ), Cavg, Ctrough, Cmax, and tmax, Infant weight and caregiver- or HCP-reported adverse events.",
+      "product": "Omvoh 100 mg + 200 mg solution for injection in pre-filled syringe, Omvoh 100 mg + 200 mg solution for injection in pre-filled pen, Omvoh 100 mg solution for injection in pre-filled syringe, Omvoh 100 mg solution for injection in pre-filled pen, Omvoh 100 mg solution for injection in pre-filled syringe, Omvoh 100 mg solution for injection in pre-filled pen, Omvoh 100 mg + 200 mg solution for injection in pre-filled syringe, Omvoh 100 mg solution for injection in pre-filled pen, Omvoh 100 mg + 200 mg solution for injection in pre-filled pen",
+      "ageRangeSecondary": [
+        "8",
+        "3",
+        "7"
+      ],
+      "ageGroup": "18-64 years, 0-17 years, 65+ years",
+      "gender": "Female",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "12",
+      "primaryEndPoint": "Concentration of mirikizumab in breast milk predose on Day 0, as  well as each day that breast milk collection is indicated in the SoA (Section 1.3).",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "28/04/2026",
+      "lastPublicationUpdate": "29/04/2026"
+    },
+    {
+      "ctNumber": "2024-514541-11-00",
+      "ctStatus": 2,
+      "ctTitle": "A randomized, double-blind, placebo-controlled clinical trial evaluating the efficacy and quality of life outcomes of Vi-Siblin in patients with low anterior resection syndrome following rectal cancer surgery.",
+      "shortTitle": "Vi-SiTrial",
+      "conditions": "Low anterior resection syndrome after low anterior resection for rectal cancer",
+      "trialCountries": [
+        "Norway:2"
+      ],
+      "decisionDateOverall": "27/04/2026",
+      "decisionDate": "NO: 27/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Pathological Conditions, Signs and Symptoms [C23]",
+        "Diseases [C] - Digestive System Diseases [C06]"
+      ],
+      "sponsor": "Sykehuset Telemark HF",
+      "sponsorType": "Hospital/Clinic/Other health care facility",
+      "trialPhase": "Therapeutic exploratory (Phase II)",
+      "endPoint": "HRQoL scores 8 weeks after start of treatment, Time (in weeks) from initiation of treatment to first clinically relevant improvement in LARS score, LARS scores and its items at baseline and after 8 weeks of treatment",
+      "product": "Placebo powder will be produced according to tabel 1.2 in the IMPD-Q, Vi-Siblin granulat",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years, 65+ years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "120",
+      "primaryEndPoint": "Total LARS score 8 weeks after start of treatment",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "27/04/2026",
+      "lastPublicationUpdate": "28/04/2026"
+    },
+    {
+      "ctNumber": "2025-524937-19-00",
+      "ctStatus": 2,
+      "ctTitle": "Methylphenidate for Early Awakening in Coma (MEAWAKE)",
+      "shortTitle": "MEAWAKE_1",
+      "conditions": "Coma due to acute brain injury",
+      "trialCountries": [
+        "Denmark:2",
+        "France:2"
+      ],
+      "decisionDateOverall": "27/04/2026",
+      "decisionDate": "DK: 27/04/2026, FR: 27/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Nervous System Diseases [C10]"
+      ],
+      "sponsor": "Rigshospitalet",
+      "sponsorType": "Hospital/Clinic/Other health care facility",
+      "trialPhase": "Therapeutic exploratory (Phase II)",
+      "endPoint": "Proportion of patients achieving clinical arousal, ICU mortality and length of stay, 3-month outcome (mRS, CPC, GOS-E)",
+      "product": "METHYLPHENIDATE\r, Placebo manufactured by the hospital pharmacy of the Capital Region in Denmark; The placebo product does not contain active substance and is otherwise identical to the IMP after preparation.",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years, 65+ years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "194",
+      "primaryEndPoint": "Time to awakening, defined as first sustained improvement in consciousness (FOUR, e = 4; or FOUR, total score ≥12; or SECONDs ≥6; confirmed on two consecutive exams 1h apart).",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "27/04/2026",
+      "lastPublicationUpdate": "28/04/2026"
+    },
+    {
+      "ctNumber": "2024-518858-17-00",
+      "ctStatus": 2,
+      "ctTitle": "The MAVRiC Study: A Phase II Study of Disease Risk Mutation-guided Finite Duration Acalabrutinib plus Venetoclax for Relapse in CLL/SLL after First-line Finite covalent BTKi plus BCL2i combination, with or without Obinutuzumab",
+      "shortTitle": "D8220C00036",
+      "conditions": "Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLL/SLL)",
+      "trialCountries": [
+        "Spain:2",
+        "Czechia:2"
+      ],
+      "decisionDateOverall": "27/04/2026",
+      "decisionDate": "CZ: 29/04/2026, ES: 27/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Neoplasms [C04]"
+      ],
+      "sponsor": "AstraZeneca AB",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic exploratory (Phase II)",
+      "endPoint": "1) Efficacy: PFS, defined as time from date of the first dose until progression per iwCLL criteria (Hallek et al, 2018) as assessed by the investigator, or death due to any cause in the absence of progression. The measure of interest is the median of PFS., 2) Efficacy:  DoR, defined as the time from the date of first documented response until date of documented progression per iwCLL criteria (Hallek et al, 2018) as assessed by the investigator, or death due to any cause. The measure of interest is the median of DoR., 3) Efficacy: EFS, defined as the time from date of the first dose until the first occurrence of disease progression, initiation of subsequent CLL/SLL therapy, or death due to any cause. The measure of interest is the median of EFS., 4) Efficacy: TTNT, defined as the time from date of the first dose to the initiation of subsequent CLL/SLL therapy or death due to any cause. The measure of interest is the median of TTNT, 5) Efficacy: OS, defined as the time from date of the first dose until the date of death due to any cause. The timepoint of interest is the landmark estimate of OS at 5 years., 6) Efficacy: Rate of peripheral blood (PB) uMRD, defined as proportion of participants achieving remission based on a clonoSEQ® assay result of < 1 CLL cell per 100,000 leukocytes (< 10^-5).  The timepoint of interest is the rate of uMRD at 3 months after last treatment dose, 7) Safety: Safety and tolerability will be evaluated in terms of adverse event (AE)s/serious adverse event (SAE)s, AEs leading to treatment discontinuation and deaths, event(s) of clinical interest (ECI)s and relevant clinical laboratory results",
+      "product": "Venclyxto 100 mg film-coated tablets, Venclyxto 100 mg film-coated tablets, Calquence 100 mg film-coated tablets, Venclyxto 10 mg film-coated tablets, Venclyxto 100 mg film-coated tablets, Venclyxto 50 mg film-coated tablets",
+      "ageRangeSecondary": [
+        "7",
+        "8"
+      ],
+      "ageGroup": "18-64 years, 65+ years",
+      "gender": "Female, Male",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "25",
+      "primaryEndPoint": "ORR, defined as the proportion of participants who achieve best response of complete remission (CR), complete remission with incomplete bone marrow recovery (CRi), nodular partial remission (nPR), or partial remission (PR) per International Workshop on Chronic Lymphocytic Leukemia  (iwCLL) criteria (Hallek et al, 2018) as assessed by the investigator, with timepoint of primary interest after completion of Cycle 14.",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "29/04/2026",
+      "lastPublicationUpdate": "30/04/2026"
+    }
+  ]
+}

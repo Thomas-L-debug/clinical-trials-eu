@@ -2,40 +2,47 @@
 # .gitignore - Clinical Trials EU
 # ===============================================
 
-# Flutter / Dart
+# Flutter
 flutter_app/.dart_tool/
 flutter_app/build/
+flutter_app/.pub-cache/
 flutter_app/.flutter-plugins
 flutter_app/.flutter-plugins-dependencies
 flutter_app/.metadata
-flutter_app/.pub-cache/
-flutter_app/.idea/
 flutter_app/android/.gradle/
 flutter_app/android/app/debug.keystore
 
 # iOS
 flutter_app/ios/Pods/
 flutter_app/ios/.symlinks/
-flutter_app/ios/Flutter/App.framework/
-flutter_app/ios/Flutter/Flutter.framework/
+flutter_app/ios/Flutter/
 
 # Web
 flutter_app/web/**/*.dart.js
 flutter_app/web/**/*.js.map
 
-# Docker
-.docker/
-docker-compose.override.yml
+# Backend Dart
+backend/.dart_tool/
+backend/.pub-cache/
+backend/build/
 
-# Environnement
+# Données temporaires
+data/*.json
+!data/ctis_trials_page1.json   # On garde le dernier dump pour référence
+
+# Environnement & secrets
 .env
 .env.local
 *.env
 
-# Logs & cache
+# Docker
+docker-compose.override.yml
+
+# Cache & Logs
 *.log
 *.sqlite
 *.db
+*.tmp
 
 # OS
 .DS_Store
@@ -43,8 +50,10 @@ Thumbs.db
 *.swp
 *.swo
 
-# Divers
+# Pubspec lock files
 pubspec.lock
+**/pubspec.lock
 
-# AI
-PROJECT_CONTEXT.md
+# Mais on veut committer ceux-ci :
+!backend/pubspec.lock
+!flutter_app/pubspec.lock

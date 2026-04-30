@@ -1,0 +1,44 @@
+# ====================== Ignoré par Docker ======================
+
+# Flutter / Dart
+flutter_app/.dart_tool/
+flutter_app/build/
+flutter_app/.pub-cache/
+flutter_app/pubspec.lock
+flutter_app/.metadata
+flutter_app/.flutter-plugins
+flutter_app/.flutter-plugins-dependencies
+
+# Build outputs
+**/build/
+**/.build/
+
+# Git
+.git/
+.gitignore
+.github/
+
+# Environnement & outils
+.env
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE / Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+docker-compose.override.yml
+**/docker/dev/*.conf.bak
+
+# Autres inutiles
+PROJECT_CONTEXT.md
+README.md
+LICENSE
+docs/
+examples/
+test/
+**/screenshots/

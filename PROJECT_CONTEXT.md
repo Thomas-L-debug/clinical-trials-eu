@@ -1,65 +1,60 @@
-# Clinical Trials EU - Project Context
+# Project Context - Clinical Trials EU Vulgarisation
 
-**Projet :** Application Flutter pour vulgariser les essais cliniques européens  
-**GitHub :** https://github.com/Thomas-L-debug/clinical-trials-eu  
-**Date dernière mise à jour :** 30 avril 2026
+## Objectif
+Application Flutter multiplateforme (Android → iOS → Web) permettant à tout le monde de consulter et comprendre facilement les **essais cliniques européens** (CTIS - EMA).
 
-## Stack Technique Actuelle
+- Récupération automatique des données via l’API CTIS officielle
+- Vulgarisation des résumés techniques (LLM à venir)
+- Stockage dans PostgreSQL
+- Interface simple et accessible
 
-### Architecture Globale
-- **Frontend** : Flutter (Web + futur Android/iOS)
-- **Backend** : Dart + Shelf (même langage que Flutter)
+## Architecture actuelle (13 mai 2026)
+
+### Stack
+- **Frontend** : Flutter (web + Android + futur iOS)
+- **Backend** : Dart + Shelf (même langage que Flutter → cohérence maximale)
 - **Base de données** : PostgreSQL 16
-- **Infrastructure** : Docker multi-stage + docker-compose
-- **Outils** : Makefile, Git, WSL Ubuntu
+- **Containerisation** : Docker + docker-compose (profiles dev/prod)
+- **Outils** : Makefile, GitHub Actions (CI/CD à finaliser)
 
-### Structure du Projet
+### Structure du projet
 
-clinical-trials-eu/
-├── flutter_app/              # Application Flutter
-├── backend/                  # API Dart Shelf
+/clinical-trials-eu
+├── flutter_app/          ← Application Flutter
+├── backend/
 │   ├── bin/
-│   │   ├── server.dart
-│   │   └── fetch_ctis.dart
 │   ├── lib/
-│   └── pubspec.yaml
-├── data/                     # Scripts & données brutes CTIS
-├── database/migrations/      # Migrations SQL
+│   │   ├── models/trial.dart
+│   │   ├── repositories/trial_repository.dart
+│   │   ├── database.dart
+│   │   └── router.dart          ← Page HTML / + API JSON
+│   └── data/                    ← JSON de backup
 ├── docker/
-│   ├── dev/                  # Flutter + Nginx
-│   └── backend/              # Dockerfile Backend
-├── PROJECT_CONTEXT.md
+├── database/migrations/
 ├── Makefile
-├── .gitignore
-└── .dockerignore
+├── docker-compose.yml
+└── project_context.md
 
+### Fonctionnalités implémentées
+- ✅ Connexion PostgreSQL robuste (Docker + host variable)
+- ✅ Modèle `Trial` complet + `fromCtisJson`
+- ✅ Repository avec upsert (Sql.named)
+- ✅ Page d’accueil HTML dynamique (`/`) avec liste des essais
+- ✅ Endpoint `/trials` JSON
+- ✅ Commande `make data-fetch-docker` qui récupère + insère 50 essais
+- ✅ Docker multi-container (postgres + backend + flutter-dev)
 
-### Commandes Principales (Makefile)
+### Prochaines étapes prioritaires (dans l’ordre)
+1. Pagination complète CTIS + synchronisation incrémentale
+2. Service de vulgarisation LLM (Ollama ou Groq)
+3. Filtres avancés (phase, statut, maladie, pays)
+4. CI/CD GitHub Actions (build Flutter + Docker push)
+5. Authentification / admin (futur)
+6. Passage en production
 
-```bash
-make help                  # Liste toutes les commandes
-make dev                   # Mode développement Flutter (hot-reload)
-make backend-run           # Lancer le backend (port 8081)
-make data-fetch            # Récupérer essais depuis API CTIS
-make db-up                 # Lancer seulement PostgreSQL
-make db-shell              # Accéder à psql
-make down                  # Tout arrêter
-```
+## Commandes utiles
+- `make dev` → tout en local
+- `make backend-run` / `make data-fetch-docker`
+- `make backend-rebuild` → après modification de code
 
-### État Actuel (30 avril 2026)
-
-- Infrastructure Docker stable (multi-stage + profiles dev/prod)
-- Backend Shelf fonctionnel avec connexion PostgreSQL
-- API /health et /trials opérationnelles
-- Script fetch_ctis.dart → récupère 50 essais par page (API CTIS officielle)
-- Base de données prête avec table trials
-- .gitignore et .dockerignore optimisés
-- Hot-reload Flutter + Nginx en production-like
-
-### Prochaines Étapes Prioritaires
-
-- Insertion automatique des données CTIS dans PostgreSQL
-- Création du modèle Trial + mapping complet
-- Endpoint d’insertion + vulgarisation des résumés (LLM)
-- Connexion Flutter → Backend
-- Cron job quotidien + CI/CD
+**Statut** : Pipeline données → DB → affichage **fonctionnel**. Base solide pour scaler.

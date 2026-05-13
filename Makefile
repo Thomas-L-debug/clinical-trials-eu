@@ -116,3 +116,8 @@ data-fetch:
 ## data-fetch-all : Récupère plusieurs pages (à venir)
 data-fetch-all:
 	@echo "À implémenter plus tard"
+
+## data-fetch-docker : Récupère les essais via le container (recommandé)
+data-fetch-docker:
+	@echo "${YELLOW}🚀 Fetch via Docker container...${RESET}"
+	docker compose --profile dev exec backend dart run bin/fetch_ctis.dart

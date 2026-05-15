@@ -1,26 +1,32 @@
+// backend/lib/database.dart
 import 'package:postgres/postgres.dart';
 
 class Database {
-  static late Connection _connection;
+  static Connection? _connection;
+
+  static Connection get connection {
+    if (_connection == null) {
+      throw StateError('Database not connected. Call Database.connect() first.');
+    }
+    return _connection!;
+  }
 
   static Future<void> connect() async {
-    final host = const String.fromEnvironment('DB_HOST', defaultValue: 'postgres');
+    if (_connection != null) return;
 
     _connection = await Connection.open(
       Endpoint(
-        host: host,
+        host: 'postgres',           // nom du service Docker
+        port: 5432,
         database: 'clinical_trials',
         username: 'dev',
         password: 'dev123',
       ),
-      settings: ConnectionSettings(sslMode: SslMode.disable),
+      settings: ConnectionSettings(
+        sslMode: SslMode.disable,   // important en dev Docker
+      ),
     );
-    print('✅ Connexion PostgreSQL réussie (host: $host)');
-  }
 
-  static Connection get connection => _connection;
-
-  static Future<void> close() async {
-    await _connection.close();
+    print('✅ Connexion PostgreSQL réussie (host: postgres)');
   }
 }

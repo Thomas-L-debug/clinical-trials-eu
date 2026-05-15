@@ -46,8 +46,13 @@ down:
 build:
 	docker compose build --no-cache
 
-## rebuild       : Tout reconstruire + relancer dev
-rebuild: down build dev
+## rebuild       : Tout reconstruire + relancer DEV complet (postgres + backend + flutter)
+rebuild: down build
+	@echo "${YELLOW}🚀 Lancement complet en mode DEV...${RESET}"
+	docker compose --profile dev up -d postgres
+	docker compose --profile dev up -d backend
+	docker compose --profile dev up -d --build flutter-dev
+	@echo "${GREEN}✅ Tout est lancé (postgres + backend + flutter-dev)${RESET}"
 
 # ====================== DATABASE ======================
 ## db-up         : Lance seulement la BDD
@@ -108,16 +113,33 @@ backend-logs:
 backend-shell:
 	docker compose exec backend bash
 
+## backend-rebuild : Rebuild complet + nettoyage cache si besoin
+backend-rebuild:
+	@echo "${YELLOW}🔨 Rebuild backend...${RESET}"
+	docker compose --profile dev down backend
+	@echo "🧹 Nettoyage cache Docker..."
+	docker builder prune -f
+	docker compose build backend --no-cache
+	docker compose --profile dev up -d backend
+	@echo "${GREEN}✅ Backend rebuildé${RESET}"
+	@sleep 2
+	@docker compose --profile dev logs backend --tail=30
+
 # ====================== DATA ======================
 ## data-fetch    : Récupère les essais cliniques CTIS
 data-fetch:
 	cd backend && dart run bin/fetch_ctis.dart
 
-## data-fetch-all : Récupère plusieurs pages (à venir)
-data-fetch-all:
-	@echo "À implémenter plus tard"
-
 ## data-fetch-docker : Récupère les essais via le container (recommandé)
 data-fetch-docker:
 	@echo "${YELLOW}🚀 Fetch via Docker container...${RESET}"
+	docker compose --profile dev exec backend dart run bin/fetch_ctis.dart
+
+## data-fetch-all : Sync complète avec pagination (nouvelle commande)
+data-fetch-all:
+	@echo "${YELLOW}🚀 Fetch complet CTIS (toutes les pages)...${RESET}"
+	docker compose --profile dev exec backend dart run bin/fetch_ctis.dart --full
+
+## data-fetch-inc    : Mise à jour incrémentale (quelques pages récentes)
+data-fetch-inc:
 	docker compose --profile dev exec backend dart run bin/fetch_ctis.dart

@@ -1,24 +1,23 @@
+// backend/bin/server.dart
 import 'dart:io';
 import 'package:shelf/shelf.dart';
 import 'package:shelf/shelf_io.dart';
-import 'package:shelf_cors_headers/shelf_cors_headers.dart' as cors;
 import '../lib/router.dart';
 import '../lib/database.dart';
 
-void main() async {
+Future<void> main() async {
+  // Connexion DB obligatoire avant de démarrer le serveur
   await Database.connect();
 
-  final app = createRouter();
+  final port = int.parse(Platform.environment['PORT'] ?? '8080');
+  final appRouter = AppRouter();
 
   final handler = const Pipeline()
       .addMiddleware(logRequests())
-      .addMiddleware(cors.corsHeaders())
-      .addHandler(app.call);
+      .addHandler(appRouter.router.call);
 
-  final port = int.parse(Platform.environment['PORT'] ?? '8081');
   final server = await serve(handler, InternetAddress.anyIPv4, port);
-
-  print('🚀 Backend Clinical Trials EU démarré sur http://0.0.0.0:$port');
-  print('📊 Health   → http://localhost:$port/health');
-  print('📊 Trials   → http://localhost:$port/trials');
+  print('🚀 Serveur démarré sur http://0.0.0.0:$port');
+  print('📊 Page d\'accueil : http://localhost:$port/');
+  print('📡 API JSON     : http://localhost:$port/trials');
 }

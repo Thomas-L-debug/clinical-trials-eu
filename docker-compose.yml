@@ -9,6 +9,7 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
       - ./database/migrations:/docker-entrypoint-initdb.d:ro
+      - ./database:/app/database:ro
     ports:
       - "5432:5432"
     healthcheck:
@@ -23,13 +24,14 @@ services:
       dockerfile: docker/backend/Dockerfile
     container_name: clinical-trials-backend
     ports:
-      - "8081:8081"
+      - "8081:8080"
     profiles: ["dev"]
     depends_on:
       postgres:
         condition: service_healthy
     environment:
-      - PORT=8081
+      - PORT=8080
+    restart: unless-stopped
 
   flutter-dev:
     build:

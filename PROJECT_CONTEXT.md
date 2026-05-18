@@ -1,64 +1,80 @@
 # Project Context - Clinical Trials EU Vulgarisation
 
 ## Objectif
-Application Flutter multiplateforme (Android → iOS → Web) permettant à tout le monde de consulter et comprendre facilement les **essais cliniques européens** (CTIS - EMA).
+Application Flutter multiplateforme permettant à tout le monde de consulter et **comprendre facilement** les essais cliniques européens (CTIS - EMA).
 
-- Récupération automatique des données via l’API CTIS officielle
-- Vulgarisation des résumés techniques (LLM à venir)
-- Stockage dans PostgreSQL
+- Récupération automatique via API CTIS
+- **Vulgarisation des résumés** (LLM Ollama local + GPU)
+- Stockage PostgreSQL
 - Interface simple et accessible
 
-## Architecture actuelle (15 mai 2026)
+## Architecture actuelle (18 mai 2026)
 
 ### Stack
 - **Frontend** : Flutter (web + Android + futur iOS)
-- **Backend** : Dart + Shelf (même langage que Flutter → cohérence maximale)
+- **Backend** : Dart + Shelf
 - **Base de données** : PostgreSQL 16
-- **Containerisation** : Docker + docker-compose (profiles dev/prod)
-- **Outils** : Makefile, GitHub Actions (CI/CD à finaliser)
+- **LLM** : Ollama (llama3.1:8b) avec GPU NVIDIA RTX 2060
+- **Containerisation** : Docker + docker-compose (profiles dev)
+- **Outils** : Makefile, GitHub Actions (à finaliser)
 
 ### Structure du projet
+
 /clinical-trials-eu
-├── flutter_app/          ← Application Flutter
+├── flutter_app/
 ├── backend/
 │   ├── bin/
-│   │   └── server.dart
+│   │   ├── server.dart
+│   │   └── vulgarize.dart          ← Nouveau : vulgarisation batch LLM
 │   ├── lib/
-│   │   ├── models/trial.dart          ← fromMap + toJson + fromCtisJson
-│   │   ├── repositories/trial_repository.dart  ← searchAndGet + count optimisé
-│   │   ├── database.dart              ← Connection v3+ robuste
-│   │   └── router.dart                ← page HTML + API JSON avec recherche/pagination
-│   └── data/                          ← JSON de backup
+│   │   ├── models/trial.dart
+│   │   ├── repositories/trial_repository.dart
+│   │   ├── database.dart
+│   │   └── router.dart
+│   └── ...
 ├── docker/
 ├── database/migrations/
 ├── Makefile
 ├── docker-compose.yml
 └── PROJECT_CONTEXT.md
 
+
 ### Fonctionnalités implémentées
-- ✅ Connexion PostgreSQL robuste (Docker + host variable)
-- ✅ Modèle `Trial` complet + `fromCtisJson` + `fromMap` + `toJson`
-- ✅ Repository avec upsert + searchAndGet + count optimisé
-- ✅ Page d’accueil HTML dynamique avec **recherche** + **pagination**
-- ✅ Endpoint `/trials` JSON (limit/offset/search)
-- ✅ Commande `make data-fetch-all` qui récupère + insère **10 000 essais**
-- ✅ Docker multi-container (postgres + backend + flutter-dev)
-- ✅ Port backend 8081 / Flutter 8080 (pas de conflit)
+
+**✅ Pipeline données**
+- Récupération + insertion de ~10 000 essais
+- Page HTML avec recherche + pagination
+
+**✅ Vulgarisation LLM (nouveau)**
+- Script `bin/vulgarize.dart` complet (batch de 20-30 essais)
+- Prompt structuré en JSON + règles légales strictes
+- Stockage dans `vulgarized_fr` (format JSON)
+- Support GPU via Ollama
+- Timer + progression dans les logs
+- `make data-vulgarize` et `make data-vulgarize-all`
+
+**✅ Docker**
+- Services : postgres, backend, ollama (GPU), flutter-dev
+- `make dev`, `make backend-rebuild`
 
 ### Prochaines étapes prioritaires (dans l’ordre)
-1. **Vulgarisation LLM** (Ollama local ou Groq) → résumé simplifié
-2. Filtres avancés (phase, statut, maladie, pays) sur la page HTML
-3. Amélioration design + responsive de la page d’accueil
-4. CI/CD GitHub Actions (build Flutter + Docker push)
-5. Application Flutter (web + Android + iOS)
-6. Authentification / admin (futur)
-7. Passage en production
+
+1. **Amélioration du prompt** LLM (ton encore plus prudent)
+2. Affichage joli des résumés vulgarisés sur la page HTML
+3. Intégration dans l’application Flutter (web d’abord)
+4. Filtres avancés (phase, statut, maladie, pays)
+5. CI/CD GitHub Actions complet
+6. Passage en production
 
 ## Commandes utiles
-- `make dev` → tout en local
-- `make backend-rebuild` → après modification backend
-- `make data-fetch-all` → sync complète CTIS
-- `make backend-run` → lance seulement le backend
 
-**Statut** : **Pipeline données → DB → page HTML fonctionnelle** avec recherche et pagination.  
-**10 000 essais** stockés et accessibles. Base très solide pour scaler.
+```bash
+make dev                    # Tout lancer (dev)
+make backend-rebuild        # Rebuild backend après modification
+make data-vulgarize         # Vulgariser un batch (~20-30 essais)
+make data-vulgarize-all     # Tout vulgariser (boucle)
+make db-shell               # Accéder à PostgreSQL
+```
+
+Statut actuel : Pipeline complet données → vulgarisation LLM → stockage.
+Base très solide, vulgarisation fonctionnelle et prête à scaler.

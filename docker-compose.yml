@@ -32,6 +32,23 @@ services:
     environment:
       - PORT=8080
     restart: unless-stopped
+  
+  ollama:
+    image: ollama/ollama:latest
+    container_name: clinical-trials-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    profiles: ["dev"]
+    restart: unless-stopped
 
   flutter-dev:
     build:
@@ -52,3 +69,4 @@ services:
 
 volumes:
   postgres_data:
+  ollama_data:

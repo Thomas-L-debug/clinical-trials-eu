@@ -30,8 +30,8 @@ help:
 # ====================== DOCKER ======================
 ## dev           : Mode développement (hot-reload) - RECOMMANDÉ
 dev:
-	@echo "${YELLOW}🚀 Lancement mode DEV (hot-reload)...${RESET}"
-	docker compose --profile dev up -d --build flutter-dev
+	@echo "🚀 Lancement en mode DEV..."
+	docker compose --profile dev up -d
 
 ## prod          : Version production (Nginx)
 prod:
@@ -143,3 +143,15 @@ data-fetch-all:
 ## data-fetch-inc    : Mise à jour incrémentale (quelques pages récentes)
 data-fetch-inc:
 	docker compose --profile dev exec backend dart run bin/fetch_ctis.dart
+
+# Vulgarisation LLM (Ollama)
+data-vulgarize:
+	@echo "🧠 Vulgarisation des essais (batch JSON structuré)..."
+	docker compose --profile dev run --rm backend dart run bin/vulgarize.dart
+
+data-vulgarize-all:
+	@echo "🧠 Vulgarisation complète en boucle..."
+	@while true; do \
+		docker compose --profile dev run --rm backend dart run bin/vulgarize.dart || break; \
+		sleep 4; \
+	done
